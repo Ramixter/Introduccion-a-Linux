@@ -26,4 +26,4 @@ Nos descargaremos la imagen `.ISO` del SO que vayamos a usar y lo instalaremos e
 
 Una vez tenemos nuestra imagen `.ISO` del SO que vayamos a utilizar vamos a **Virtualizar** una máquina sobre la cual instalaremos nuestro SO.
 
-Para ello haremos uso de un **Hipervisor**, como son por ejemplo **[VirtualBox]()** o **[VMware]()**
+Para ello haremos uso de un **Hipervisor**, como son por ejemplo **[VirtualBox](https://www.virtualbox.org/)** o **[VMware](https://www.vmware.com/es/products/workstation-pro/workstation-pro-evaluation.html)**. Hay otros como por ejemplo **Proxmox** o **Hyper-V** que también son conocidos para el uso de máquinas virtuales.
