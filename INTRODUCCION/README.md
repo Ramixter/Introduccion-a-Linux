@@ -30,7 +30,7 @@ Para ello haremos uso de un **Hipervisor**, como son por ejemplo **[VirtualBox](
 
 Pues para empezar vamos a usar un Hipervisor para virtualizar nuestra primera máquina virtual.
 
-| First Header  | Second Header |
+| VirtualBox  | VMware |
 | ------------- | ------------- |
 | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
