@@ -1,6 +1,6 @@
 # INTRODUCCÍON
 
-# Introduccion a Linux
+## Introduccion a Linux
 
 Vamos a ver algunas nociones de lo que Linux y su entorno nos puede ofrecer, así como por ejemplo los distintos comandos con los que podemos estar trabajando.
 
@@ -21,3 +21,4 @@ Tanto `Parrot` como `Kali Linux` van a ser una buena opción a la hora de usar h
 > Da igual que tipo de distibución usemos, cualquiera de ellas nos va a ser útil a la hora de realizar el aprendizaje del manejo de Linux, así que sientete libre de usar la que quieras.
 
 Nos descargaremos la imagen `.ISO` del SO que vayamos a usar y lo instalaremos en un entorno de virtualización.
+
