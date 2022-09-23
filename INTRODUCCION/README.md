@@ -10,11 +10,11 @@ Por ejemplo, Ubuntu, Windows, MacOS son sistemas operativos entre otros.
 
 Nosotros vamos a ver 2 sistemas operativos orientados al **Pentesting** ya que veremos un enfoque un poco más práctico en la parte de la **Ciberseguridad**.
 
-Podemos usar la distribución de [`Ubuntu`](https://ubuntu.com/download/desktop), o podemos descargarnos los siguientes sistemas operativos:
+Podemos usar la distribución de **[Ubuntu](https://ubuntu.com/download/desktop)**, o podemos descargarnos los siguientes sistemas operativos:
 
-- [`Parrot`](https://parrotsec.org/): este SO es que el vamos a estar usando de ahora en adelante para nuestro aprendizaje. Usaremos el `Parrot Security Edition`.
+- **[Parrot](https://parrotsec.org/)**: este SO es que el vamos a estar usando de ahora en adelante para nuestro aprendizaje. Usaremos el `Parrot Security Edition`.
 
-- [`Kali Linux`](https://www.kali.org/get-kali/): muy conocido en el ambito de la Ciberseguridad.
+- **[Kali Linux](https://www.kali.org/get-kali/)**: muy conocido en el ambito de la Ciberseguridad.
 
 Tanto `Parrot` como `Kali Linux` van a ser una buena opción a la hora de usar herramientas de pentesting, ejecutar y desplegar ataques.
 
