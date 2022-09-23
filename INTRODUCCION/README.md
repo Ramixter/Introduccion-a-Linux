@@ -48,5 +48,5 @@ Dependiendo del sistema operativo que vayamos a instalar lo haremos de distintas
 
 Para instalar Parrot SO vamos a seguir los siguientes pasos y la sigueinte configuración:
 
-![img](/INTRODUCCION/imagenes/Window-WRADMIN-000001.png)  | ![img](/INTRODUCCION/imagenes/Window-WRADMIN-000015.png) 
+![img](/INTRODUCCION/imagenes/Window-WRADMIN-000015.png) 
 
