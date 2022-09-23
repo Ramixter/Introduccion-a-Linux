@@ -46,3 +46,7 @@ Pues para empezar vamos a usar un Hipervisor para virtualizar nuestra primera m�
 
 Dependiendo del sistema operativo que vayamos a instalar lo haremos de distintas maneras, en este caso recordemos que nosotros vamos a trabajar con **Parrot**, por lo que en este ejemplo veremos la instalación de este SO.
 
+Para instalar Parrot SO vamos a seguir los siguientes pasos y la sigueinte configuración:
+
+
+
