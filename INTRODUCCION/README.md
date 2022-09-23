@@ -33,10 +33,10 @@ Pues para empezar vamos a usar un Hipervisor para virtualizar nuestra primera m√
 | VirtualBox  | VMware |
 | :---:  | :---:  |
 | ![img](/INTRODUCCION/imagenes/Window-WRADMIN-000001.png)  | ![img](/INTRODUCCION/imagenes/Window-WRADMIN-000008.png)   |
-| ![img](/INTRODUCCION/imagenes/Window-WRADMIN-000002.png)  | Content Cell  |
-| ![img](/INTRODUCCION/imagenes/Window-WRADMIN-000003.png)  | Content Cell  |
-| ![img](/INTRODUCCION/imagenes/Window-WRADMIN-000004.png)  | Content Cell  |
-| ![img](/INTRODUCCION/imagenes/Window-WRADMIN-000005.png)  | Content Cell  |
-| ![img](/INTRODUCCION/imagenes/Window-WRADMIN-000006.png)  | Content Cell  |
-| ![img](/INTRODUCCION/imagenes/Window-WRADMIN-000007.png)  | Content Cell  |
+| ![img](/INTRODUCCION/imagenes/Window-WRADMIN-000002.png)  | ![img](/INTRODUCCION/imagenes/Window-WRADMIN-000009.png)  |
+| ![img](/INTRODUCCION/imagenes/Window-WRADMIN-000003.png)  | ![img](/INTRODUCCION/imagenes/Window-WRADMIN-000010.png)  |
+| ![img](/INTRODUCCION/imagenes/Window-WRADMIN-000004.png)  | ![img](/INTRODUCCION/imagenes/Window-WRADMIN-000011.png)  |
+| ![img](/INTRODUCCION/imagenes/Window-WRADMIN-000005.png)  | ![img](/INTRODUCCION/imagenes/Window-WRADMIN-000012.png)  |
+| ![img](/INTRODUCCION/imagenes/Window-WRADMIN-000006.png)  | ![img](/INTRODUCCION/imagenes/Window-WRADMIN-000013.png)  |
+| ![img](/INTRODUCCION/imagenes/Window-WRADMIN-000007.png)  | ![img](/INTRODUCCION/imagenes/Window-WRADMIN-000014.png)  |
 
