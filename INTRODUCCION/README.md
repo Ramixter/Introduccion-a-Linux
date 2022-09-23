@@ -31,7 +31,7 @@ Para ello haremos uso de un **Hipervisor**, como son por ejemplo **[VirtualBox](
 Pues para empezar vamos a usar un Hipervisor para virtualizar nuestra primera máquina virtual.
 
 | VirtualBox  | VMware |
-| ------------- | ------------- |
+| :---:  | :---:  |
 | ![img](/INTRODUCCION/imagenes/Window-WRADMIN-000001.png)  | ![img](/INTRODUCCION/imagenes/Window-WRADMIN-000001.png)   |
 | ![img](/INTRODUCCION/imagenes/Window-WRADMIN-000002.png)  | Content Cell  |
 | ![img](/INTRODUCCION/imagenes/Window-WRADMIN-000003.png)  | Content Cell  |
