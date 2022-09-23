@@ -22,3 +22,8 @@ Tanto `Parrot` como `Kali Linux` van a ser una buena opción a la hora de usar h
 
 Nos descargaremos la imagen `.ISO` del SO que vayamos a usar y lo instalaremos en un entorno de virtualización.
 
+## Crear una máquina virtual.
+
+Una vez tenemos nuestra imagen `.ISO` del SO que vayamos a utilizar vamos a **Virtualizar** una máquina sobre la cual instalaremos nuestro SO.
+
+Para ello haremos uso de un **Hipervisor**, como son por ejemplo **[VirtualBox]()** o **[VMware]()**
