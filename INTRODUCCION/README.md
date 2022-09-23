@@ -32,7 +32,7 @@ Pues para empezar vamos a usar un Hipervisor para virtualizar nuestra primera m√
 
 | VirtualBox  | VMware |
 | :---:  | :---:  |
-| ![img](/INTRODUCCION/imagenes/Window-WRADMIN-000001.png)  | ![img](/INTRODUCCION/imagenes/Window-WRADMIN-000001.png)   |
+| ![img](/INTRODUCCION/imagenes/Window-WRADMIN-000001.png)  | ![img](/INTRODUCCION/imagenes/Window-WRADMIN-000009.png)   |
 | ![img](/INTRODUCCION/imagenes/Window-WRADMIN-000002.png)  | Content Cell  |
 | ![img](/INTRODUCCION/imagenes/Window-WRADMIN-000003.png)  | Content Cell  |
 | ![img](/INTRODUCCION/imagenes/Window-WRADMIN-000004.png)  | Content Cell  |
