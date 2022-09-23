@@ -1,3 +1,11 @@
+# CONTENIDO
+
+1. Introducción
+2. Comandos de Linux
+3. Scripting en Bash
+
+***
+
 # INTRODUCCÍON
 
 ## Introduccion a Linux
@@ -90,4 +98,4 @@ Para instalar Parrot SO vamos a seguir los siguientes pasos y la sigueinte confi
 
 Y listo, ya tenemos instalado nuestro SO Parrot.
 
-[Volver al inicio](#introduccíon)
+[Volver al inicio](#contenido)
