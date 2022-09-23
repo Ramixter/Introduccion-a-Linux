@@ -42,6 +42,7 @@ Pues para empezar vamos a usar un Hipervisor para virtualizar nuestra primera m�
 
 > Estas configuraciones se deben revisar dependeindo de las características que queramos asignarles a cada máquina y para la función a la que vayan destinadas, mirando por ejemplo la memoría RAM, los núcleos y procesadores, la tarjeta de red, etc.
 
-## Instalación del Sistema Operativo
+## Instalación del Sistema Operativo (Parrot Security Edition )
 
-Dependiendo del sistema operativo que vayamos a instalar lo haremos de distintas maneras, en este caso recordemos que nosotros vamos a trabajar con **Parrot**, por lo que en este ejemplo veremos la instalación de este SO
+Dependiendo del sistema operativo que vayamos a instalar lo haremos de distintas maneras, en este caso recordemos que nosotros vamos a trabajar con **Parrot**, por lo que en este ejemplo veremos la instalación de este SO.
+
