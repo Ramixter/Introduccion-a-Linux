@@ -41,3 +41,5 @@ Pues para empezar vamos a usar un Hipervisor para virtualizar nuestra primera m�
 | ![img](/INTRODUCCION/imagenes/Window-WRADMIN-000007.png)  | ![img](/INTRODUCCION/imagenes/Window-WRADMIN-000014.png)  |
 
 > Estas configuraciones se deben revisar dependeindo de las características que queramos asignarles a cada máquina y para la función a la que vayan destinadas, mirando por ejemplo la memoría RAM, los núcleos y procesadores, la tarjeta de red, etc.
+
+# Instalación del Sistema Operativo
