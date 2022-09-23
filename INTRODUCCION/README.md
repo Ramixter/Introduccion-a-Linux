@@ -34,3 +34,5 @@ Pues para empezar vamos a usar un Hipervisor para virtualizar nuestra primera m�
 | ------------- | ------------- |
 | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
+
+![Aquí la descripción de la imagen por si no carga](/INTRODUCCION/Window-WRADMIN-000001.png)
