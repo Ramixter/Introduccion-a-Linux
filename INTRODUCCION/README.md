@@ -51,3 +51,11 @@ Para instalar Parrot SO vamos a seguir los siguientes pasos y la sigueinte confi
 <p align="center">
 <img src="/INTRODUCCION/imagenes/Window-WRADMIN-000015.png"> 
 </p>
+
+<p align="center">
+<img src="/INTRODUCCION/imagenes/Window-WRADMIN-000016.png"> 
+</p>
+
+<p align="center">
+<img src="/INTRODUCCION/imagenes/Window-WRADMIN-000017.png"> 
+</p>
