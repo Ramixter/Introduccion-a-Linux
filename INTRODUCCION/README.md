@@ -4,11 +4,9 @@
 
 Vamos a ver algunas nociones de lo que Linux y su entorno nos puede ofrecer, así como por ejemplo los distintos comandos con los que podemos estar trabajando.
 
-Vamos a trabajar con **Sistemas Operativo**, pero antes que nada vamos a ver lo que es un **Sistemas Operativo**.
+Vamos a trabajar con **Sistemas Operativo**. Un **Sistema Operativo** es un programa o un conjunto de programas de un sistema informático, que administra los recursos físicos (la parte hardware), los protocolos de ejecución del resto de contenido (la parte software), así como la interfaz de usuario.
 
-Un **Sistema Operativo** es un programa o un conjunto de programas de un sistema informático, que administra los recursos físicos (la parte hardware), los protocolos de ejecución del resto de contenido (la parte software), así como la interfaz de usuario.
-
-Por ejemplo, Ubuntu, Windows, MacOS; son sistemas operativos.
+Por ejemplo, Ubuntu, Windows, MacOS son sistemas operativos entre otros.
 
 Nosotros vamos a ver 2 sistemas operativos orientados al **Pentesting** ya que veremos un enfoque un poco más práctico en la parte de la **Ciberseguridad**.
 
