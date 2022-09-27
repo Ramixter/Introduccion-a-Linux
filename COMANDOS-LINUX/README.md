@@ -95,11 +95,13 @@ which cat
 
 Podemos ver como nuestro comando `cat` está enlazado por un alias a una ruta. **Hay una distinción que tenemos que tener en cuenta que son `rutas absolutas` y `rutas relativas`.**
 
-**Cuando ejuecutamos un comando, como por ejemplo `whoami` lo que estamos haciendo es la ejecución de un binario mediante una `ruta relativa`, es decir, no hemos tenido que especificar su ruta absoluta. Cada binario debería de tener una `ruta absoluta` que la podemos ver con `which`.
+**Cuando ejuecutamos un comando, como por ejemplo `whoami` lo que estamos haciendo es la ejecución de un binario mediante una `ruta relativa`, es decir, no hemos tenido que especificar su ruta absoluta. Cada binario debería de tener una `ruta absoluta` que la podemos ver con `which`.**
 
 Por ejemplo ¿en qué `ruta absoluta` está el binario `whoami`?
 
 ```bash
 which whoami
 ```
+>/usr/bin/cat
 
+Entonces vemos una cosa curiosa, nos podemos dar cuenta que si usamos en nuestra terminal el comando 
