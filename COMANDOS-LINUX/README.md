@@ -79,4 +79,27 @@ cat /etc/group
 ```
 Aquí veremos todos los grupos ecistentes y el identificador al final.
 
-**Para movernos dentro de un fichero de una manera más rapida y cómoda podemos usar el botón `Av Pág`(hacia abajo) y `Re Pág`(hacia arriba) del teclado.**
+**Para movernos dentro de un fichero de una manera más rapida y cómoda podemos usar los botones del teclado `Av Pág`(hacia abajo) y `Re Pág`(hacia arriba). O simplemente con las flechas de dirección.**
+
+## which
+
+El comando `which` nos ayudará a saber más sobre ciertos comandos, como por ejemplo el comando `cat`
+
+```bash
+whhich
+```
+
+```bash
+which cat
+```
+
+Podemos ver como nuestro comando `cat` está enlazado por un alias a una ruta. **Hay una distinción que tenemos que tener en cuenta que son `rutas absolutas` y `rutas relativas`.**
+
+**Cuando ejuecutamos un comando, como por ejemplo `whoami` lo que estamos haciendo es la ejecución de un binario mediante una `ruta relativa`, es decir, no hemos tenido que especificar su ruta absoluta. Cada binario debería de tener una `ruta absoluta` que la podemos ver con `which`.
+
+Por ejemplo ¿en qué `ruta absoluta` está el binario `whoami`?
+
+```bash
+which whoami
+```
+
