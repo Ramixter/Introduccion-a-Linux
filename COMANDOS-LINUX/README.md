@@ -222,4 +222,13 @@ El comando `cd` viene de "change directory", es decir, cambbio de directorio. Po
 
 - `..`: vamos al directorio padre, es decir, al directorio que es el contenedor del directorio actual.
 - `ruta`: vamos a la ruta que especificamos.
+- `\`: nos iremos a la raiz, a la raiz del sistema operativo.
+
+Si usamos simplemte el comando `cd` nos llevará al directorio de trabajo por defecto que tenemos para nuestro usuario.
+
+```bash
+cd
+```
+
+> Recuerda que siempre puedes saber en que ruta estás usando el coamndo `pwd`.
 
