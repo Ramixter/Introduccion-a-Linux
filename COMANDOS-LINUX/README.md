@@ -135,3 +135,6 @@ echo $PATH
 >/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/share/games:/usr/local/sbin:/usr/sbin:/sbin:/home/ramiro/.local/bin:/snap/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
 
 Vemos varias rutas separadas por dos puntos. Lo que vemos es como un orden de prioridad existente a través del cual cuando tú ejecutas un comando, primero comienza buscando dicho comando en la primera ruta de `$PATH`y así de manera recursiva en orden hasta encontrarlo en alguna de las rutas de `$PATH`.
+
+>Podemos "retocar" nuestro `$PATH`. Veremos técnicas de hacking en los módulos de pentesting que se llaman **path hijacking**, a través del cual puedes ejecutar un secuetro del `$PATH` y escalar privilegios y liarla para que el flujo del programa funcione u opere de otra forma. Secuestras el `$PATH` para cambiar un binario mencionado de forma relativa a una absoluta, etc.
+
