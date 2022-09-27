@@ -201,3 +201,19 @@ which ls
 ```
 >/usr/bin/ls
 
+Si por ejemplo queremos listar el contendi ode un directorio distinto lo podemos hacer usando `ls` junto a la `ruta`, por ejemplo:
+
+```bash
+ls /bin
+```
+
+### Listas detalladas:
+
+Podemos usar el contenido de un directorio de manera más detallada, para ello podemos usar distintos atributos junto al comando `ls`
+
+- `-l`: este atributo nos permitirá ver listado con detalle el contenido del directorio que queramos:
+
+```bash
+ls -l
+```
+
