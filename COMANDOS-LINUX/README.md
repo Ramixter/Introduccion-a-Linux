@@ -122,6 +122,11 @@ whoami
 
 **Hay ocasiones en las que `which` no existe, en este caso hay otra alternativa que sería `command -v`**
 
+```bash
+command -v whoami
+```
+>/usr/bin/whoami
+
 Entonces nos podemos preguntar ¿y por qué sabe que `whoami` está en `/usr/bin`?
 
 Pues es porque hay una variable de entorno que existen que para ver su contenido tiene que ir acompañadas del símbolo **`$`**, por ejemplo: `$PATH`.
@@ -137,7 +142,7 @@ echo Estamos aprendiendo Linux
 
  O incluso podemos sacar más información usando la convinaciñon de varios comandos de la manera adecuada para ver dicha información por pantalla, por ejempolo, vamos a ver el uso de `echo` junto a la variable de entorno `$PATH`.
 
- ```bash
+```bash
 echo $PATH
 ```
 >/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/share/games:/usr/local/sbin:/usr/sbin:/sbin:/home/ramiro/.local/bin:/snap/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
