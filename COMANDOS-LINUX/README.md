@@ -8,7 +8,7 @@ Nosotros vamos a poner aquí algunos ejemplos que vamos a estar viendo que nos a
 
 Para abrir una consola podemos pulsar el comando `Windows + T` vamos a abrir una **terminal**, es decir, a la **consola** y podremos empezar a trabajar.
 
-## ¿Qué usuario somos?
+## ¿Qué usuario somos? `whoami`
 
 El primer comando que vamos a ver es `whoami` que nos dirá con qué usuario estamos logeados en ma máquina o cuál es nuestro usuario.
 
@@ -20,7 +20,7 @@ whoami
 
 Hay varios usuarios a nivel de sistema.
 
-## ¿A qué grupo perteneces?
+## ¿A qué grupo perteneces? (id)
 
 Con el comando `id`, podemos ver a qué grupos pertenecemos. En el sistema hay una serie de grupos existentes.
 
@@ -54,6 +54,6 @@ Si ahora por ejemplo ya nos habíamos logueado como root en la terminal, y volve
 
 **Pero también podemo usar el comando `sudo`para ajecutar un comando con privilegios sin necesidad de convertirme en root, por ejemplo el comando `whoami`, es decir, `sudo whoam`.** No estamos como el usuario root, lo que realmente hacemos es ejecutar el comando que queramos como root. Esto viene bien a la hora de ejecutar comandos como root sin ser el usuario root.
 
-## Grupos
+Cada grupo que hemos visualizado con el comando `id` los podemos ver en la siguiente ruta en el sitema: `/etc/group` (que es uno de los distintos directorios que existen). Y nos vendrá bien saber para qué se usa o qué contiene cada ruta. Esta ruta, `/etc/group`, es un archivo, realmente es un directorio.
 
-Cada grupo que hemos visualizado con el comando `id` los podemos ver en la siguiente ruta en el sitema: `/etc/group` (que es uno de los distintos directorios que existen). Y nos vendrá bien saber para qué se usa o qué contiene cada ruta. 
+## Ver el contenido de un archivo (cat)
