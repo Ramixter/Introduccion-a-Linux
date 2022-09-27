@@ -45,3 +45,10 @@ Tenemos que considerar al usuario root como el usuario privilegiado, el que tien
 
 > Cuando en Pentesting hablamos de **rootear una máquina** es simpplemente elevar nuestro privilegio.
 
+En cualquier momento podemos usar el comando `exit`para salir de la sesión actual en la que estamos logueados.
+
+```bash
+exit
+```
+Si ahora por ejemplo ya nos habíamos logueado como root en la terminal, y volvemos a ejecutar `sudo su`no nos volverña a pedir la contraseña, ya que por detrás se guarda un **token privilege**, que temporalmente durante un cierto periodo de tiempo almacena una especie de token que queda almacenado temporalmente para que no tengas que volver a poner la contrasñea.
+
