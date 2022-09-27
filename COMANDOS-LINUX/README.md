@@ -77,3 +77,6 @@ cat
 ```bash
 cat /etc/group
 ```
+Aquí veremos todos los grupos ecistentes y el identificador al final.
+
+**Para movernos dentro de un fichero de una manera más rapida y cómoda podemos usar el botón `Av Pág`(hacia abajo) y `Re Pág`(hacia arriba) del teclado.**
