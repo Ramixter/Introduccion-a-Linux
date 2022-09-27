@@ -73,3 +73,7 @@ Ahora por ejemplo si usamos el oomando `cat` junto con la ruta `/etc/group` pode
 ```bash
 cat
 ```
+
+```bash
+cat /etc/group
+```
