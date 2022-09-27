@@ -39,4 +39,9 @@ El echo de que estemos en el grupo sudo lo que nos permite es que al ejecutar el
 ```bash
 sudo su
 ```
+Y si hemos introducido bien la contraseña si volvemos a ejecutar el comando `whoami` veremos que ahora nuesto usuario sería el usuario root.
+
+Tenemos que considerar al usuario root como el usuario privilegiado, el que tiene mayor privilegio a nivel de sistema. Y también podemos ejecutar el comandi `id` para ver a qué grupos pertenecemos.
+
+> Cuando en Pentesting hablamos de **rootear una máquina** es simpplemente elevar nuestro privilegio.
 
