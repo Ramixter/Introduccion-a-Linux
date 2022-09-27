@@ -1,8 +1,8 @@
 # CONTENIDO
 
-1. [Introducción](https://github.com/Ramixter/Introduccion-a-Linux/tree/main/INTRODUCCION#contenido)
-2. [Comandos de Linux](https://github.com/Ramixter/Introduccion-a-Linux/tree/main/COMANDOS-LINUX#contenido)
-3. Scripting en Bash
+1. [Introducción](https://github.com/Ramixter/Introduccion-a-Linux/tree/main/CAPITULO-1#contenido)
+2. [Comandos de Linux](https://github.com/Ramixter/Introduccion-a-Linux/tree/main/CAPITULO-2#contenido)
+3. [Control del flujo stderr-stdout, operadores y procesos en segundo plano]()
 
 ***
 
@@ -260,3 +260,5 @@ Los tipos de ``SHELL` se ven en: `cat /etc/shells`.
 ```bash
 cat /etc/shells
 ```
+
+[:arrow_up_small:Volver al inicio](#contenido) | [3. Comandos de Linux:arrow_forward:](https://github.com/Ramixter/Introduccion-a-Linux/tree/main/CAPITULO-2#contenido)
