@@ -20,7 +20,7 @@ whoami
 
 Hay varios usuarios a nivel de sistema.
 
-## ¿A qué grupo perteneces? (id)
+## ¿A qué grupo perteneces? `id`
 
 Con el comando `id`, podemos ver a qué grupos pertenecemos. En el sistema hay una serie de grupos existentes.
 
@@ -56,4 +56,10 @@ Si ahora por ejemplo ya nos habíamos logueado como root en la terminal, y volve
 
 Cada grupo que hemos visualizado con el comando `id` los podemos ver en la siguiente ruta en el sitema: `/etc/group` (que es uno de los distintos directorios que existen). Y nos vendrá bien saber para qué se usa o qué contiene cada ruta. Esta ruta, `/etc/group`, es un archivo, realmente es un directorio.
 
-## Ver el contenido de un archivo (cat)
+## Ver el contenido de un archivo `cat`
+
+Ahora por ejemplo si usamos el oomando `cat` junto con la ruta `/etc/group` podemos ver el contenido.
+
+```bash
+cat
+```
