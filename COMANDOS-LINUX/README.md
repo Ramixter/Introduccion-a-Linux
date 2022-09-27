@@ -220,6 +220,6 @@ ls -l
 
 El comando `cd` viene de "change directory", es decir, cambbio de directorio. Podemos navegar a través de directorios con este comando.
 
-- `..`: vamos al directorio padre, es decir, al directorio anterior.
+- `..`: vamos al directorio padre, es decir, al directorio que es el contenedor del directorio actual.
 - `ruta`: vamos a la ruta que especificamos.
 
