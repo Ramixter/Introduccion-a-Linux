@@ -120,3 +120,8 @@ Pues es porque hay una variable de entorno que existen que para ver su contenido
 
 ## `echo`
 
+El comando `echo` nos permite imprimir el resultado que queramos por pantalla, es decir por la terminal, por ejemplo si usamos `echo` seguido de una cadena de texto podemos ver cómo nos aparece dicha cadena de texto en nuestra terminal.
+
+```bash
+echo "Estamos aprendiendo Linux"
+```
