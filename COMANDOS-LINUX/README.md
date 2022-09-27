@@ -8,9 +8,9 @@ Nosotros vamos a poner aquí algunos ejemplos que vamos a estar viendo que nos a
 
 Para abrir una consola podemos pulsar el comando `Windows + T` vamos a abrir una terminal y podremos empezar a trabajar.
 
-El primer comando que vamos a ver es `whoami` que nos dirá con qué usuario estamos logeados en ma máquina o cuál es nuestro usuario.
+## ¿Qué usuario somos?
 
-¿Qué usuaario somos?
+El primer comando que vamos a ver es `whoami` que nos dirá con qué usuario estamos logeados en ma máquina o cuál es nuestro usuario.
 
 ```bash
 whoami
