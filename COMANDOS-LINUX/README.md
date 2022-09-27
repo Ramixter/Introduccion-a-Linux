@@ -29,3 +29,14 @@ id
 ```
 
 **Algo a destacar, es que normalmente cada usuario tiene un grupo asignado con el mismo nombre de usuario**
+
+Cuando estamos efectuando Pentesting, ver en todo momento en qué grupo estamos es muy interesante, porque hay algún que otro grupo que puede presentar un riesgo potencial de cara a una escalada de privilegios o alguna vulnerabilidad. Hay varios grupos peligrosos o considerados como **críticos**, como por ejemplo el grupo **docker**, o el grupo **lxd**. Hay vias potenciales a través de las cuales puedes abusar de estos grupos para escalar privilegios y convertirnos en **root**.
+
+Pero en un principio el único que presenta riesgo en este momento es el grupo **sudo**. Nuestro usuario tiene el rpivilegio de convertirse en root. ¿Qué quiere decir esto?.
+
+El echo de que estemos en el grupo sudo lo que nos permite es que al ejecutar el comando `sudo su` nos pedirá una contraseña (la contraseña de tu usuario), y así nos podemos convertir en el usuario root.
+
+```bash
+sudo su
+```
+
