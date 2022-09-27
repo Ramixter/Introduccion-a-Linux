@@ -16,3 +16,12 @@ El primer comando que vamos a ver es `whoami` que nos dirá con qué usuario est
 whoami
 ```
 
+> Siempre que abrimos una terminal tenemos que pensar en que eres un usuario a nivel de sistema.
+
+Hay varios usuarios a nivel de sistema.
+
+## ¿A qué grupo perteneces?
+
+Con el comando `id`, podemos ver a qué grupos pertenecemos. En el sistema hay una serie de grupos existentes.
+
+**Algo a destacar, es que normalmente cada usuario tiene un grupo asignado con el mismo nombre de usuario**
