@@ -103,6 +103,13 @@ Por ejemplo ¿en qué `ruta absoluta` está el binario `whoami`?
 ```bash
 which whoami
 ```
->/usr/bin/cat
+>/usr/bin/whoami
 
-Entonces vemos una cosa curiosa, nos podemos dar cuenta que si usamos en nuestra terminal el comando `whoami` y el comando `/usr/bin/cat` es lo mismo
+Entonces vemos una cosa curiosa, nos podemos dar cuenta que si usamos en nuestra terminal el comando `whoami` y el comando `/usr/bin/whoami` es lo mismo, es decir, daría igual si usamos cualquiera de los dos comandos, el resultado será el mismo:
+
+```bash
+whoami
+```
+```bash
+/usr/bin/whoami
+```
