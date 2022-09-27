@@ -81,7 +81,7 @@ Aquí veremos todos los grupos ecistentes y el identificador al final.
 
 **Para movernos dentro de un fichero de una manera más rapida y cómoda podemos usar los botones del teclado `Av Pág`(hacia abajo) y `Re Pág`(hacia arriba). O simplemente con las flechas de dirección.**
 
-## which
+## `which`
 
 El comando `which` nos ayudará a saber más sobre ciertos comandos, como por ejemplo el comando `cat`
 
@@ -113,3 +113,10 @@ whoami
 ```bash
 /usr/bin/whoami
 ```
+
+Entonces nos podemos preguntar ¿y por qué sabe que `whoami` está en `/usr/bin`?
+
+Pues es porque hay una variable de entorno que existen que para ver su contenido tiene que ir acompañadas del símbolo **`$`**, por ejemplo: `$PATH`.
+
+## `echo`
+
