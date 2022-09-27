@@ -186,3 +186,18 @@ pwd
 ```
 >/home/ramiro
 
+## Listar directorios `ls`
+
+Si dentro de nuestro directorio, o en el directorio que nos encontremos ejecutamos el comando `ls` veremos el contenido del directorio donde nos encontremos. Econtraremos directorios, archivos y ficheros.
+
+```bash
+ls
+```
+
+`ls` es otro alias
+
+```bash
+which ls
+```
+>/usr/bin/ls
+
