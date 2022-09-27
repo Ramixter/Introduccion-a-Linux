@@ -1,2 +1,2 @@
-# Introduccion-a-Linux
+# CONTENIDO
 Aprende a utilizar Linux
