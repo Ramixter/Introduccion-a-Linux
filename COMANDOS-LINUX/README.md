@@ -24,4 +24,8 @@ Hay varios usuarios a nivel de sistema.
 
 Con el comando `id`, podemos ver a qué grupos pertenecemos. En el sistema hay una serie de grupos existentes.
 
+```bash
+id
+```
+
 **Algo a destacar, es que normalmente cada usuario tiene un grupo asignado con el mismo nombre de usuario**
