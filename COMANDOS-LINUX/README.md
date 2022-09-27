@@ -155,7 +155,10 @@ Por ejemplo vamos a filtrar el output del comando `cat /etc/group` por la palabr
  ```bash
 cat /etc/group | grep "floppy"
 ```
->floppy: x :25:ramiro
+>floppy:x:25:ramiro
 
 Que nos dará como resultado, reporte, la línea de todo el archivo donde está la palabra "floppy" puesta. Si además queremos ver la línea donde se encuentra lo que hemos buscado en el fichero, podemos usar el atributo `-n` junto a `grep`para mostrarnos la línea del fichero en la que se encuentra.
 
+ ```bash
+cat /etc/group | grep "floppy" -n
+```
