@@ -237,3 +237,26 @@ Recordando las variables de entorno, podemos ver una variable de entorno que alm
 ```bash
 echo $HOME
 ```
+>/home/ramiro
+
+¿Dónde se definen, además de los usuarios existentes a nivel de sistema, los directorios personales de usuarios?
+
+Hay un archivo a nivel de sistema que es el `/etc/passwd`. Si lo abirmos, `cat /etc/passwd`, veremos un listado de líneas de código donnde podemos ver:
+- el usuario
+- el identificador de usuario, `id`
+- el identificador de grupo
+- el nombre del usuario
+- el directorio personal
+- el tipo de `SHELL` que usa el usuario
+
+```bash
+cat /etc/passwd
+```
+
+Hay otra variable de entorno que nos interesa conocer que es `$SHELL`, donde veremos en todo momento el tipo de `SHELL` que estás utilizando.
+
+Los tipos de ``SHELL` se ven en: `cat /etc/shells`.
+
+```bash
+cat /etc/shells
+```
