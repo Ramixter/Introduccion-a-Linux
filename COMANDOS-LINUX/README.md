@@ -138,3 +138,22 @@ Vemos varias rutas separadas por dos puntos. Lo que vemos es como un orden de pr
 
 >Podemos "retocar" nuestro `$PATH`. Veremos técnicas de hacking en los módulos de pentesting que se llaman **path hijacking**, a través del cual puedes ejecutar un secuetro del `$PATH` y escalar privilegios y liarla para que el flujo del programa funcione u opere de otra forma. Secuestras el `$PATH` para cambiar un binario mencionado de forma relativa a una absoluta, etc.
 
+**Un comando básico y muy útil cuando estemos escribinedo en pantlla es el comando `Ctrl + L` para limpiar la pantalla**
+
+## Aplicación de filtros
+
+Hay situaciones en las que queremos filtrar el contenido de un `output` para ver solamente la información necesaria sin que el resto de información del fichero aparezca por pantalla. Para ello lo mejor es aplicar un filtro. 
+
+Nosotros cuando queramos operar sobre un **output**, por ejemplo por el ocmando `cat /etc/group` para filtrar la información que queremos lo que podemos hacer es **PIPEAR**
+
+### Pipear
+
+**Pipear** es como decir que queremos el output del comando anterior ejecutado queremos tratarlo para efectuar una segunda operatoria. Hay un comando en Linux que es el comando `grep` (que es muy usado) que sirve para aplicar filtros.
+
+Por ejemplo vamos a filtrar el output del comando `cat /etc/group` por la palabra "floppy", entonces vamos a hacer uso de `grep`:
+
+ ```bash
+cat /etc/group | grep "floopy"
+```
+
+
