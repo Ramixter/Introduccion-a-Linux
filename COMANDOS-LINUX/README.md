@@ -118,6 +118,10 @@ whoami
 /usr/bin/whoami
 ```
 
+**Algo a tener en cuenta es que hay ocasiones en las que logremos a través de una página web ejecutar comandos de forma remota. Imaginemos que logramos hacer una inyección, hay ocasiones en las que a lo mejor queremos ejecutar ciertos comandos, pero es preferible validar de primeras si el comando existe. Por eso es tan útil el `which whoami`, porque si me reporta la web la `ruta absoluta` se que el binario existe** Si ponemos `wich` y algo que no exista nos reportará un `not found`.
+
+**Hay ocasiones en las que `which` no existe, en este caso hay otra alternativa que sería `command -v`**
+
 Entonces nos podemos preguntar ¿y por qué sabe que `whoami` está en `/usr/bin`?
 
 Pues es porque hay una variable de entorno que existen que para ver su contenido tiene que ir acompañadas del símbolo **`$`**, por ejemplo: `$PATH`.
@@ -167,4 +171,6 @@ Que nos dará como resultado, reporte, la línea de todo el archivo donde está 
 cat /etc/group | grep "floppy" -n
 ```
 >19:floppy:x:25:ramiro
+
+## Rutas`pwd`
 
