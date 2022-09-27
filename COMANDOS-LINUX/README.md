@@ -153,7 +153,7 @@ Nosotros cuando queramos operar sobre un **output**, por ejemplo por el ocmando 
 Por ejemplo vamos a filtrar el output del comando `cat /etc/group` por la palabra "floppy", entonces vamos a hacer uso de `grep`:
 
  ```bash
-cat /etc/group | grep "floopy"
+cat /etc/group | grep "floppy"
 ```
 
 
