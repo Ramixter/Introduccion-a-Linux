@@ -224,7 +224,7 @@ El comando `cd` viene de "change directory", es decir, cambbio de directorio. Po
 - `ruta`: vamos a la ruta que especificamos.
 - `\`: nos iremos a la raiz, a la raiz del sistema operativo.
 
-Si usamos simplemte el comando `cd` nos llevará al directorio de trabajo por defecto que tenemos para nuestro usuario.
+Si usamos simplemte el comando `cd` nos llevará al directorio de trabajo por defecto que tenemos para nuestro usuario, al directorio presonal del usuario.
 
 ```bash
 cd
@@ -232,3 +232,8 @@ cd
 
 > Recuerda que siempre puedes saber en que ruta estás usando el coamndo `pwd`.
 
+Recordando las variables de entorno, podemos ver una variable de entorno que almacena el directorio de trabajo, esa variable es `$HOME`.
+
+```bash
+echo $HOME
+```
