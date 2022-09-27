@@ -52,3 +52,4 @@ exit
 ```
 Si ahora por ejemplo ya nos habíamos logueado como root en la terminal, y volvemos a ejecutar `sudo su`no nos volverña a pedir la contraseña, ya que por detrás se guarda un **token privilege**, que temporalmente durante un cierto periodo de tiempo almacena una especie de token que queda almacenado temporalmente para que no tengas que volver a poner la contrasñea.
 
+**Pero también podemo usar el comando `sudo`para ajecutar un comando con privilegios sin necesidad de convertirme en root, por ejemplo el comando `whoami`, es decir, `sudo whoam`.
