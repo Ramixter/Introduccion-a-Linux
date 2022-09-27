@@ -6,7 +6,7 @@
 
 ***
 
-# Comandos básicos de Linux
+# COMANDOS BÁSICOS DE LINUX
 
 Vamos a ver una serie de comandos de Linux y sus funciones dependiendo de lo que queramos hacery cómo nos queramos mover sobre este entorno de trabajo mediante comandos.
 
