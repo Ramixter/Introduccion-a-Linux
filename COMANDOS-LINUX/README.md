@@ -10,6 +10,8 @@ Para abrir una consola podemos pulsar el comando `Windows + T` vamos a abrir una
 
 El primer comando que vamos a ver es `whoami` que nos dirá con qué usuario estamos logeados en ma máquina o cuál es nuestro usuario.
 
+¿Qué usuaario somos?
+
 ```bash
 whoami
 ```
