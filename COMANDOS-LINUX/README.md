@@ -125,3 +125,13 @@ El comando `echo` nos permite imprimir el resultado que queramos por pantalla, e
 ```bash
 echo Estamos aprendiendo Linux
 ```
+>Estamos aprendiendo Linux
+
+ O incluso podemos sacar más información usando la convinaciñon de varios comandos de la manera adecuada para ver dicha información por pantalla, por ejempolo, vamos a ver el uso de `echo` junto a la variable de entorno `$PATH`.
+
+ ```bash
+echo $PATH
+```
+>/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/share/games:/usr/local/sbin:/usr/sbin:/sbin:/home/ramiro/.local/bin:/snap/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
+
+Vemos varias rutas separadas por dos puntos. Lo que vemos es como un orden de prioridad existente a través del cual cuando tú ejecutas un comando, primero comienza buscando dicho comando en la primera ruta de `$PATH`y así de manera recursiva en orden hasta encontrarlo en alguna de las rutas de `$PATH`.
