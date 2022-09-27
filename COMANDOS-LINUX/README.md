@@ -92,6 +92,7 @@ whhich
 ```bash
 which cat
 ```
+>/usr/bin/cat
 
 Podemos ver como nuestro comando `cat` está enlazado por un alias a una ruta. **Hay una distinción que tenemos que tener en cuenta que son `rutas absolutas` y `rutas relativas`.**
 
@@ -104,4 +105,4 @@ which whoami
 ```
 >/usr/bin/cat
 
-Entonces vemos una cosa curiosa, nos podemos dar cuenta que si usamos en nuestra terminal el comando 
+Entonces vemos una cosa curiosa, nos podemos dar cuenta que si usamos en nuestra terminal el comando `whoami` y el comando `/usr/bin/cat` es lo mismo
