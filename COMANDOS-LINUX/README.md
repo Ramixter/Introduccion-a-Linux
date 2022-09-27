@@ -216,4 +216,10 @@ Podemos usar el contenido de un directorio de manera más detallada, para ello p
 ```bash
 ls -l
 ```
+## Cambiar de directorio
+
+El comando `cd` viene de "change directory", es decir, cambbio de directorio. Podemos navegar a través de directorios con este comando.
+
+- `..`: vamos al directorio padre, es decir, al directorio anterior.
+- `ruta`: vamos a la ruta que especificamos.
 
