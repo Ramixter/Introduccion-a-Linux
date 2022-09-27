@@ -98,4 +98,4 @@ Para instalar Parrot SO vamos a seguir los siguientes pasos y la sigueinte confi
 
 Y listo, ya tenemos instalado nuestro SO Parrot.
 
-[:arrow_up_small:Volver al inicio](#contenido) | [2. Comandos de Linux](https://github.com/Ramixter/Introduccion-a-Linux/tree/main/INTRODUCCION#contenido)
+[:arrow_up_small:Volver al inicio](#contenido) | [2. Comandos de Linux:arrow_forward:](https://github.com/Ramixter/Introduccion-a-Linux/tree/main/INTRODUCCION#contenido)
