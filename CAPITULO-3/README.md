@@ -93,7 +93,7 @@ whoami 2>/dev/null
 Esta sería una forma de que si algo no existe, nos cercioramos de que no van a haber errores por consola, pero en caso de que exista la ejecución si que la veremos, por ejemplo:
 
 ```bash
-cat /etc/host 2>/dev/null
-cat /etc/hosts 2>/dev/null
+cat /etc/host 2>/dev/null  # whit errors
+cat /etc/hosts 2>/dev/null #whitout errors
 ```
 
