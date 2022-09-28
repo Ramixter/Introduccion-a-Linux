@@ -93,8 +93,8 @@ whoami 2>/dev/null
 Esta sería una forma de que si algo no existe, nos cercioramos de que no van a haber errores por consola, pero en caso de que exista la ejecución si que la veremos, por ejemplo:
 
 ```bash
-cat /etc/host 2>/dev/null  # whit errors
-cat /etc/hosts 2>/dev/null # whitout errors
+cat /etc/host 2>/dev/null  # with errors
+cat /etc/hosts 2>/dev/null # without errors
 ```
 
 Entonces en caso de haber errores no se mostrarán por pantalla, pero en caso de no haberlos si que nos mostrará el resultado por pantalla.
@@ -104,6 +104,6 @@ Por otro lado, algo que podríamos hacer también es redirigir el `stdout` (que 
 - **Forma rara**: lo que podemos hacer es que todo el flujo del programa se redirija al `/dev/null`, de forma que lo ejecutamos y no vemos nada, pero el inconveniente es que si tenemos una ejecución no exitosa si que nos aparecería el error por pantalla. Por que este no sería el output del comando ejecutado, esto sería un error porque el directorio o archivo no existe:
 
 ```bash
-cat /etc/host >/dev/null  # whit errors
-cat /etc/hosts >/dev/null # whitout errors
+cat /etc/host >/dev/null  # with errors
+cat /etc/hosts >/dev/null # without errors
 ```
