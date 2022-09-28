@@ -24,6 +24,8 @@ Hay una cosa que tenemos que tener en cuenta y es que en la línea de instruccio
 
 >Podemos apoyarnos en los [Redirectores en Bash](/CAPITULO-3/sources/bash-redirections-cheat-sheet.pdf)
 
+## `;`
+
 Por ejemplo, podemos usar el comando `whoami` para saber quien soy y el comando `ls` para listar los recursos de el directorio actual de trabajo. Pero en vez de usarlos por separado, podemos concatenar estos dos comandos, por ejemplo:
 
 ```bash
@@ -31,6 +33,8 @@ whoami; ls
 ```
 
 >Esto nos dice que queremos ejecutar un `whoami`, pero a la vez en el mismo *liner* podemos ejecutar el coamndo `ls`. Y podemos concaternar tantos comandos como queramos, por ejemplo: `whoami; ls; id`.
+
+## `&&`
 
 Usar el `;` es una opción, pero una opción muy diferente es usar el `&&` (and). En este caso hace primero un comando y luego el siguiente.
 
@@ -40,7 +44,7 @@ whoami && ls
 
 Y podríamos pensar que es lo mismo, que podemos usar tnato el `;`, como el `&&`. Pero realmente no, ya que el `&&` lo que hace es que el segundo operando se ejecute **si y solo si** el primer operando devuelve un código de estado exitoso. Entonces podemos ver que si el primer operando no se ejecuta de manera exitosa, no se ejecutarán los siguientes.
 
-## Codigo de estado
+### Codigo de estado
 
 El código de estado de un comando lo podemos ver de la sigueinte manera. Si por ejemplo hacemos un `cat /etc/host`, podemos ver el **código de estado** con `echo $?`, el cuál nos devolverá un número.
 
@@ -52,3 +56,9 @@ echo $?
 
 - Si nos sale un **0** significa que el **código de estado** del comando anteriormente ejecutado ha sido **EXITOSO**
 - Sin embargo si es distinto de 0, entonces significa que el **código de estado** del comando es **NO EXISOTOS**.
+
+>Hay varios códigos de estado que esxisten.
+
+## `||`
+
+Podemos usar un `||` cuando ejecutamos comandos, entonces en este caso, si el primer comando es erroneo si que nos va aejecutar el segundo operando.
