@@ -34,7 +34,7 @@ whoami; ls
 
 >Esto nos dice que queremos ejecutar un `whoami`, pero a la vez en el mismo *liner* podemos ejecutar el coamndo `ls`. Y podemos concaternar tantos comandos como queramos, por ejemplo: `whoami; ls; id`.
 
-## and `&&`
+## And `&&`
 
 Usar el `;` es una opción, pero una opción muy diferente es usar el `&&` (and). En este caso hace primero un comando y luego el siguiente.
 
@@ -59,7 +59,7 @@ echo $?
 
 >Hay varios códigos de estado que esxisten.
 
-## or `||`
+## Or `||`
 
 Podemos usar un `||` cuando ejecutamos comandos, entonces en este caso, si el primer comando es erroneo si que nos va aejecutar el segundo operando.
 
@@ -69,5 +69,8 @@ Si hay un comando erroneo, nos devolverá como salida `bash: orden no encontrada
 
 Hay una cosa a destacar, y es que por ejemplo si ejecutamos un comando no válido nos reportará por consola `orden no encontrada` o `command not found`. Y esto es porque cuando nosotros hacemos scripts hay ocasiones en las que no nos interesa que el usuario vea errores por consola.
 
-**El error se define como `stderr`**
+### eErrores `stderr`
+
+**El error se define como `stderr`**, que se puede referenciar con el número 2. Y lo que nosotros podemos hacer es redirigir los errores. Para eso 
+
 
