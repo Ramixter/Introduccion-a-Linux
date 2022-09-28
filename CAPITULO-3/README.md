@@ -94,6 +94,9 @@ Esta sería una forma de que si algo no existe, nos cercioramos de que no van a 
 
 ```bash
 cat /etc/host 2>/dev/null  # with errors
+```
+
+```bash
 cat /etc/hosts 2>/dev/null # without errors
 ```
 
@@ -105,5 +108,8 @@ Por otro lado, algo que podríamos hacer también es redirigir el `stdout` (que 
 
 ```bash
 cat /etc/host >/dev/null  # with errors
+```
+
+```bash
 cat /etc/hosts >/dev/null # without errors
 ```
