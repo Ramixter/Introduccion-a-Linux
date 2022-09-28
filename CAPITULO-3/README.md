@@ -17,3 +17,9 @@
    - [Cambiar de directorio `cd`](https://github.com/Ramixter/Introduccion-a-Linux/tree/main/CAPITULO-2#cambiar-de-directorio-cd)
 3. [Control del flujo stderr-stdout, operadores y procesos en segundo plano](https://github.com/Ramixter/Introduccion-a-Linux/tree/main/CAPITULO-3#contenido)
 ***
+
+# Control del flujo stderr-stdout, operadores y procesos en segundo plano
+
+Hay una cosa que tenemos que tener en cuenta y es que en la línea de instrucciones que nos encontramos podemos concatenar múltiples comandos. Hay una serie de operadores (`and`, `or`, `;`, etc).
+
+>Podemos apoyarnos en los [Redirectores en Bash](/CAPITULO-3/sources/bash-redirections-cheat-sheet.pdf)
