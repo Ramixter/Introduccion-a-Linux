@@ -34,7 +34,7 @@ whoami; ls
 
 >Esto nos dice que queremos ejecutar un `whoami`, pero a la vez en el mismo *liner* podemos ejecutar el coamndo `ls`. Y podemos concaternar tantos comandos como queramos, por ejemplo: `whoami; ls; id`.
 
-## `&&`
+## and `&&`
 
 Usar el `;` es una opción, pero una opción muy diferente es usar el `&&` (and). En este caso hace primero un comando y luego el siguiente.
 
@@ -59,6 +59,9 @@ echo $?
 
 >Hay varios códigos de estado que esxisten.
 
-## `||`
+## or `||`
 
 Podemos usar un `||` cuando ejecutamos comandos, entonces en este caso, si el primer comando es erroneo si que nos va aejecutar el segundo operando.
+
+>Esto ya tiene que ver un poco con el tema del **Scripting en Bash**
+
