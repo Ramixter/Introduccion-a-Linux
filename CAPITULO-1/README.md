@@ -1,3 +1,11 @@
+# CONTENIDO
+
+1. [Introducción](https://github.com/Ramixter/Introduccion-a-Linux/tree/main/CAPITULO-1#contenido)
+2. [Comandos de Linux](https://github.com/Ramixter/Introduccion-a-Linux/tree/main/CAPITULO-2#contenido)
+3. [Control del flujo stderr-stdout, operadores y procesos en segundo plano]()
+
+***
+
 # INTRODUCCÍON
 
 ## Introduccion a Linux
@@ -31,9 +39,63 @@ Para ello haremos uso de un **Hipervisor**, como son por ejemplo **[VirtualBox](
 Pues para empezar vamos a usar un Hipervisor para virtualizar nuestra primera máquina virtual.
 
 | VirtualBox  | VMware |
-| ------------- | ------------- |
-| ![Aquí la descripción de la imagen por si no carga](/INTRODUCCION/Window-WRADMIN-000001.png)  | ![Aquí la descripción de la imagen por si no carga](/INTRODUCCION/Window-WRADMIN-000001.png)   |
-| Content Cell  | Content Cell  |
+| :---:  | :---:  |
+| ![img](/INTRODUCCION/imagenes/Window-WRADMIN-000001.png)  | ![img](/INTRODUCCION/imagenes/Window-WRADMIN-000008.png)   |
+| ![img](/INTRODUCCION/imagenes/Window-WRADMIN-000002.png)  | ![img](/INTRODUCCION/imagenes/Window-WRADMIN-000009.png)  |
+| ![img](/INTRODUCCION/imagenes/Window-WRADMIN-000003.png)  | ![img](/INTRODUCCION/imagenes/Window-WRADMIN-000010.png)  |
+| ![img](/INTRODUCCION/imagenes/Window-WRADMIN-000004.png)  | ![img](/INTRODUCCION/imagenes/Window-WRADMIN-000011.png)  |
+| ![img](/INTRODUCCION/imagenes/Window-WRADMIN-000005.png)  | ![img](/INTRODUCCION/imagenes/Window-WRADMIN-000012.png)  |
+| ![img](/INTRODUCCION/imagenes/Window-WRADMIN-000006.png)  | ![img](/INTRODUCCION/imagenes/Window-WRADMIN-000013.png)  |
+| ![img](/INTRODUCCION/imagenes/Window-WRADMIN-000007.png)  | ![img](/INTRODUCCION/imagenes/Window-WRADMIN-000014.png)  |
 
-Cambio
+> Estas configuraciones se deben revisar dependeindo de las características que queramos asignarles a cada máquina y para la función a la que vayan destinadas, mirando por ejemplo la memoría RAM, los núcleos y procesadores, la tarjeta de red, etc.
 
+## Instalación del Sistema Operativo (Parrot Security Edition )
+
+Dependiendo del sistema operativo que vayamos a instalar lo haremos de distintas maneras, en este caso recordemos que nosotros vamos a trabajar con **Parrot**, por lo que en este ejemplo veremos la instalación de este SO.
+
+Para instalar Parrot SO vamos a seguir los siguientes pasos y la sigueinte configuración:
+
+<p align="center">
+<img src="/INTRODUCCION/imagenes/Window-WRADMIN-000015.png"> 
+</p>
+
+<p align="center">
+<img src="/INTRODUCCION/imagenes/Window-WRADMIN-000016.png"> 
+</p>
+
+<p align="center">
+<img src="/INTRODUCCION/imagenes/Window-WRADMIN-000017.png"> 
+</p>
+
+<p align="center">
+<img src="/INTRODUCCION/imagenes/Window-WRADMIN-000018.png"> 
+</p>
+
+<p align="center">
+<img src="/INTRODUCCION/imagenes/Window-WRADMIN-000019.png"> 
+</p>
+
+<p align="center">
+<img src="/INTRODUCCION/imagenes/Window-WRADMIN-000020.png"> 
+</p>
+
+<p align="center">
+<img src="/INTRODUCCION/imagenes/Window-WRADMIN-000021.png"> 
+</p>
+
+<p align="center">
+<img src="/INTRODUCCION/imagenes/Window-WRADMIN-000022.png"> 
+</p>
+
+<p align="center">
+<img src="/INTRODUCCION/imagenes/Window-WRADMIN-000023.png"> 
+</p>
+
+<p align="center">
+<img src="/INTRODUCCION/imagenes/Window-WRADMIN-000024.png"> 
+</p>
+
+Y listo, ya tenemos instalado nuestro SO Parrot.
+
+[:arrow_up_small:Volver al inicio](#contenido) | [2. Comandos de Linux:arrow_forward:](https://github.com/Ramixter/Introduccion-a-Linux/tree/main/CAPITULO-2#contenido)
