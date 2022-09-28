@@ -20,15 +20,13 @@
 
 # COMANDOS BÁSICOS DE LINUX
 
-
-
 Vamos a ver una serie de comandos de Linux y sus funciones dependiendo de lo que queramos hacery cómo nos queramos mover sobre este entorno de trabajo mediante comandos.
 
 Aquí hay una chuleta muy útil con comandos de linux que podemos ver y nos servirá de ayuda:
 
 - **[Chuleta comandos Python](https://ciberninjas.com/chuleta-comandos-linux/)**
 - **[Comandos básicos de Linux](https://www.bonaval.com/kb/cheats-chuletas/comandos-basicos-linux)**
-- **[Guía en PDF de comandos básicos de Linux:](https://www.famaf.unc.edu.ar/~vmarconi/numerico1/comandos.pdf)**
+- **[Guía en PDF de comandos básicos de Linux:](/CAPITULO-2/sources/comandos.pdf)**
 
 Nosotros vamos a poner aquí algunos ejemplos que vamos a estar viendo que nos ayudarán a entender mejor cómo funciona Linux y sobre todo a empezar a soltarnos dentro de este entorno que se usa a nivel profesional y que hará que tengamos una buena base a la hora de desarrollarnos profesionalmente.
 
