@@ -77,6 +77,6 @@ Ahora bien, ¿qué es el `/dev/null`?
 
 Tenemos que ver el `/dev/null` como un agujero negro por así decirlo. Es un recurso existente, es un tipo de archivo especial. Cualquier cosa que enviemos al `/dev/null` hacemos que se desvanezca, en definitiva, que desaparece. Si movemos un archivo al `/dev/null` y desaparece. Esto es lo único que tenemos que tener en cuenta.
 
-
+Entonces ahora supongamos que si ejecutamos un comando no exitoso, por ejemplo `whoam 2>/dev/null`, lo que estamos haciendo es que el output no exitoso de errores lo voy a redirigir a esa ruta para que no veamos el output. 
 
 
