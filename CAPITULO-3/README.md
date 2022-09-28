@@ -63,5 +63,7 @@ echo $?
 
 Podemos usar un `||` cuando ejecutamos comandos, entonces en este caso, si el primer comando es erroneo si que nos va aejecutar el segundo operando.
 
+Si hay un comando erroneo, nos devolverá como salida `bash: whoam: orden no encontrada` o `bash: whoam: command not found`
+
 >Esto ya tiene que ver un poco con el tema del **Scripting en Bash**
 
