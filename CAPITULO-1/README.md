@@ -40,13 +40,13 @@ Pues para empezar vamos a usar un Hipervisor para virtualizar nuestra primera m�
 
 | VirtualBox  | VMware |
 | :---:  | :---:  |
-| ![img](/INTRODUCCION/imagenes/Window-WRADMIN-000001.png)  | ![img](/INTRODUCCION/imagenes/Window-WRADMIN-000008.png)   |
-| ![img](/INTRODUCCION/imagenes/Window-WRADMIN-000002.png)  | ![img](/INTRODUCCION/imagenes/Window-WRADMIN-000009.png)  |
-| ![img](/INTRODUCCION/imagenes/Window-WRADMIN-000003.png)  | ![img](/INTRODUCCION/imagenes/Window-WRADMIN-000010.png)  |
-| ![img](/INTRODUCCION/imagenes/Window-WRADMIN-000004.png)  | ![img](/INTRODUCCION/imagenes/Window-WRADMIN-000011.png)  |
-| ![img](/INTRODUCCION/imagenes/Window-WRADMIN-000005.png)  | ![img](/INTRODUCCION/imagenes/Window-WRADMIN-000012.png)  |
-| ![img](/INTRODUCCION/imagenes/Window-WRADMIN-000006.png)  | ![img](/INTRODUCCION/imagenes/Window-WRADMIN-000013.png)  |
-| ![img](/INTRODUCCION/imagenes/Window-WRADMIN-000007.png)  | ![img](/INTRODUCCION/imagenes/Window-WRADMIN-000014.png)  |
+| ![img](/CAPITULO-1/imagenes/Window-WRADMIN-000001.png)  | ![img](/CAPITULO-1/imagenes/Window-WRADMIN-000008.png)   |
+| ![img](/CAPITULO-1/imagenes/Window-WRADMIN-000002.png)  | ![img](/CAPITULO-1/imagenes/Window-WRADMIN-000009.png)  |
+| ![img](/CAPITULO-1/imagenes/Window-WRADMIN-000003.png)  | ![img](/CAPITULO-1/imagenes/Window-WRADMIN-000010.png)  |
+| ![img](/CAPITULO-1/imagenes/Window-WRADMIN-000004.png)  | ![img](/CAPITULO-1/imagenes/Window-WRADMIN-000011.png)  |
+| ![img](/CAPITULO-1/imagenes/Window-WRADMIN-000005.png)  | ![img](/CAPITULO-1/imagenes/Window-WRADMIN-000012.png)  |
+| ![img](/CAPITULO-1/imagenes/Window-WRADMIN-000006.png)  | ![img](/CAPITULO-1/imagenes/Window-WRADMIN-000013.png)  |
+| ![img](/CAPITULO-1/imagenes/Window-WRADMIN-000007.png)  | ![img](/CAPITULO-1/imagenes/Window-WRADMIN-000014.png)  |
 
 > Estas configuraciones se deben revisar dependeindo de las características que queramos asignarles a cada máquina y para la función a la que vayan destinadas, mirando por ejemplo la memoría RAM, los núcleos y procesadores, la tarjeta de red, etc.
 
@@ -57,43 +57,43 @@ Dependiendo del sistema operativo que vayamos a instalar lo haremos de distintas
 Para instalar Parrot SO vamos a seguir los siguientes pasos y la sigueinte configuración:
 
 <p align="center">
-<img src="/INTRODUCCION/imagenes/Window-WRADMIN-000015.png"> 
+<img src="/CAPITULO-1/imagenes/Window-WRADMIN-000015.png"> 
 </p>
 
 <p align="center">
-<img src="/INTRODUCCION/imagenes/Window-WRADMIN-000016.png"> 
+<img src="/CAPITULO-1/imagenes/Window-WRADMIN-000016.png"> 
 </p>
 
 <p align="center">
-<img src="/INTRODUCCION/imagenes/Window-WRADMIN-000017.png"> 
+<img src="/CAPITULO-1/imagenes/Window-WRADMIN-000017.png"> 
 </p>
 
 <p align="center">
-<img src="/INTRODUCCION/imagenes/Window-WRADMIN-000018.png"> 
+<img src="/CAPITULO-1/imagenes/Window-WRADMIN-000018.png"> 
 </p>
 
 <p align="center">
-<img src="/INTRODUCCION/imagenes/Window-WRADMIN-000019.png"> 
+<img src="/CAPITULO-1/imagenes/Window-WRADMIN-000019.png"> 
 </p>
 
 <p align="center">
-<img src="/INTRODUCCION/imagenes/Window-WRADMIN-000020.png"> 
+<img src="/CAPITULO-1/imagenes/Window-WRADMIN-000020.png"> 
 </p>
 
 <p align="center">
-<img src="/INTRODUCCION/imagenes/Window-WRADMIN-000021.png"> 
+<img src="/CAPITULO-1/imagenes/Window-WRADMIN-000021.png"> 
 </p>
 
 <p align="center">
-<img src="/INTRODUCCION/imagenes/Window-WRADMIN-000022.png"> 
+<img src="/CAPITULO-1/imagenes/Window-WRADMIN-000022.png"> 
 </p>
 
 <p align="center">
-<img src="/INTRODUCCION/imagenes/Window-WRADMIN-000023.png"> 
+<img src="/CAPITULO-1/imagenes/Window-WRADMIN-000023.png"> 
 </p>
 
 <p align="center">
-<img src="/INTRODUCCION/imagenes/Window-WRADMIN-000024.png"> 
+<img src="/CAPITULO-1/imagenes/Window-WRADMIN-000024.png"> 
 </p>
 
 Y listo, ya tenemos instalado nuestro SO Parrot.
