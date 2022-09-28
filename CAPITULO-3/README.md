@@ -49,3 +49,6 @@ echo $?
 ```
 
 >0
+
+- Si nos sale un **0** significa que el **código de estado** del comando anteriormente ejecutado ha sido **EXITOSO**
+- Sin embargo si es distinto de 0, entonces significa que el **código de estado** del comando es **NO EXISOTOS**.
