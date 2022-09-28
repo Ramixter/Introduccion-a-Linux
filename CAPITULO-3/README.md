@@ -39,3 +39,12 @@ whoami && ls
 ```
 
 Y podríamos pensar que es lo mismo, que podemos usar tnato el `;`, como el `&&`. Pero realmente no, ya que el `&&` lo que hace es que el segundo operando se ejecute **si y solo si** el primer operando devuelve un código de estado exitoso. Entonces podemos ver que si el primer operando no se ejecuta de manera exitosa, no se ejecutarán los siguientes.
+
+## Codigo de estado
+
+El código de estado de un comando lo podemos ver de la sigueinte manera. Si por ejemplo hacemos un `cat /etc/host`, podemos ver el **código de estado** con `echo $?`, el cuál nos devolverá un número.
+
+```bash
+echo $?
+```
+
