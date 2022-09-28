@@ -69,8 +69,14 @@ Si hay un comando erroneo, nos devolverá como salida `bash: orden no encontrada
 
 Hay una cosa a destacar, y es que por ejemplo si ejecutamos un comando no válido nos reportará por consola `orden no encontrada` o `command not found`. Y esto es porque cuando nosotros hacemos scripts hay ocasiones en las que no nos interesa que el usuario vea errores por consola.
 
-### eErrores `stderr`
+### Standard error `stderr`
 
-**El error se define como `stderr`**, que se puede referenciar con el número 2. Y lo que nosotros podemos hacer es redirigir los errores. Para eso 
+**El error se define como `stderr`**, que se puede referenciar con el número 2. Y lo que nosotros podemos hacer es redirigir los errores. Para eso podemos decir lo siguiente `2>/dev/null`, que esto lo que quiere decir es que queremos enviar el error, el `stderr`, al `/dev/null`.
+
+Ahora bien, ¿qué es el `/dev/null`?
+
+Tenemos que ver el `/dev/null` como un agujero negro por así decirlo. Es un recurso existente, es un tipo de archivo especial. Cualquier cosa que enviemos al `/dev/null` hacemos que se desvanezca, en definitiva, que desaparece. Si movemos un archivo al `/dev/null` y desaparece. Esto es lo único que tenemos que tener en cuenta.
+
+
 
 
