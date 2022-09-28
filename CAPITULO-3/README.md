@@ -85,12 +85,8 @@ whoam 2>/dev/null
 
 Pero si por ejemplo ejecutamos el comando `whoami 2>/dev/null` si que se ejecutará el comando `whoami`, ya que con el `2` lo que estamos indicando es que no nos muestre los errores.
 
-><div>
-
 ```bash
 whoami 2>/dev/null
 ```
-
-</div>
-
+>ramiro
 
