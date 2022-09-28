@@ -48,3 +48,6 @@ El código de estado de un comando lo podemos ver de la sigueinte manera. Si por
 echo $?
 ```
 
+```
+0
+```
