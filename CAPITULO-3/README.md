@@ -104,12 +104,22 @@ Entonces en caso de haber errores no se mostrarán por pantalla, pero en caso de
 
 Por otro lado, algo que podríamos hacer también es redirigir el `stdout` (que es lo que se muestra por pantalla), tendríamos varias formas de hacerlo:
 
-- **Forma rara**: lo que podemos hacer es que todo el flujo del programa se redirija al `/dev/null`, de forma que lo ejecutamos y no vemos nada, pero el inconveniente es que si tenemos una ejecución no exitosa si que nos aparecería el error por pantalla. Por que este no sería el output del comando ejecutado, esto sería un error porque el directorio o archivo no existe:
+ - **Forma rara**: lo que podemos hacer es que todo el flujo del programa se redirija al `/dev/null`, de forma que lo ejecutamos y no vemos nada, pero el inconveniente es que si tenemos una ejecución no exitosa si que nos aparecería el error por pantalla. Por que este no sería el output del comando ejecutado, esto sería un error porque el directorio o archivo no existe:
 
-```bash
-cat /etc/host >/dev/null  # with errors
-```
+ ```bash
+ cat /etc/host >/dev/null  # with errors
+ ```
 
-```bash
-cat /etc/hosts >/dev/null # without errors
-```
+ ```bash
+ cat /etc/hosts >/dev/null # without errors
+ ```
+
+ Algo que se suele hacer además que el output lo redirijamos al `/dev/null`es que el `stderr`, que los errores, pues los convirtamos a `stdout`, que es una forma de indicar que ahora los errores van a formar parte del `stdout` para que lo tome como output del propio comando ejecutado a nivel de sistema, el output normal, y que lo redirija al `/dev/null`. Entonces ahora ni los errores tampoco los vamos a ver
+
+ ```bash
+ cat /etc/host >/dev/null 2>&1 # with errors
+ ```
+
+  ```bash
+ cat /etc/hosts >/dev/null 2>&1 # without errors
+ ```
