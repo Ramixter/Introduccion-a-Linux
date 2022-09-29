@@ -64,6 +64,8 @@ Podemos meterle contenido  de varias maneras a este fichero:
      Hola seguimos añadiendo información"
      ```
 
+- `nano`: con el comando `nano` lo que realmente abrimos es un editor de texto de Linux donde podemos meter el contenido escribiéndolo nosotros mismo.
+
 
 
 
