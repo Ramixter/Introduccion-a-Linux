@@ -12,7 +12,7 @@
 > exec 3>&-
 ```
 
-[]- Se comienza utilizando un descriptor de archivo con capacidad de lectura y escritura para posteriormente crear una copia del descriptor de archivo al número 4. Al enviar el output del comando, se almacenará en el mismo archivo 'file' y posteriormente se cierran ambos descriptores de archivo
+[ ] Se comienza utilizando un descriptor de archivo con capacidad de lectura y escritura para posteriormente crear una copia del descriptor de archivo al número 4. Al enviar el output del comando, se almacenará en el mismo archivo 'file' y posteriormente se cierran ambos descriptores de archivo
 
 - Se comienza utilizando un descriptor de archivo con capacidad de lectura y escritura para posteriormente crear una copia de este cerrando el descriptor de archivo previamente creado al número 4. Al enviar el output del comando, se almacenará en el mismo archivo 'file' y posteriormente se cierran ambos descriptores de archivo.
 
@@ -20,8 +20,6 @@
 
 - Se comienza utilizando un descriptor de archivo con capacidad de escritura para posteriormente crear una copia del descriptor de archivo al número 4. Al enviar el output del comando, se almacenará en el mismo archivo 'file' y posteriormente se cierran ambos descriptores de archivo
 
-
-La operación 'exec 4>&3' crea un descriptor de archivo 4 el cual actúa como copia del descriptor de archivo 3. En caso de haber querido cerrar el primer descriptor tras establecer la copia, podríamos haber hecho 'exec 4>&3-'
 
 
 ## ¿Cómo puedo redirigir el output de un comando a un archivo?
