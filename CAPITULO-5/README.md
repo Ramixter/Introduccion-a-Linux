@@ -118,7 +118,7 @@ exec 3<> file
 </details>
 
 
-# ¿Cómo puedo cerrar el descriptor de archivo una vez hemos depositado el contenido deseado?
+## Pregunta 6 / 8  ¿Cómo puedo cerrar el descriptor de archivo una vez hemos depositado el contenido deseado?
 
 
 ```bash
@@ -127,11 +127,11 @@ whoami >&3
 cat file
 ```
 
-exec 4>&3
-<&3
-exec 3>&1
-[]exec 3>&-
-end 3>&-
+- [ ] exec 4>&3
+- [ ] <&3
+- [ ] exec 3>&1
+- [ ] exec 3>&-
+- [ ] end 3>&-
 
 # ¿Qué sucederá cuando se aplique el último comando?
 
