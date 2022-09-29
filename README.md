@@ -1,7 +1,6 @@
 # [CONTENIDO](https://github.com/Ramixter/Introduccion-a-Linux)
 
 1. [Introducción](https://github.com/Ramixter/Introduccion-a-Linux/tree/main/CAPITULO-1#contenido)
-
     <details>
      <summary>Resumen</summary>
   
