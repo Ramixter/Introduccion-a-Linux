@@ -141,7 +141,10 @@ De donde podemos leer más información aún.
     <td>Otros</td>
   </tr>
   <tr>
-    <td>Más contenido</td>
+    <td></td>
+    <td>`-`</td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
     <td>Pie de página</td>
