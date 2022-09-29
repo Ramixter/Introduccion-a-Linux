@@ -73,11 +73,11 @@ Si le hacemos un `cat` al fichero `file` veremos que está vacío.
 
 Pues ahora mismo estamos empleando un **descriptor de archivo** identificado con el número 3. Si ahora por ejemplo queremos comunicarnos con ese director de archivo, el cual en este caso estamos empleando un descriptor de archivo con capacidad de lectura y escritura.
 
- - Si quisiera solamente lectura le ponemos solamente un `<`
-   ```bash
-   exec < file # only read
-   ```
- - Si quisiera solamente escritura le pones solamente un `>`
-    ```bash
-    exec > file # only write
-    ```
+  - Si quisiera solamente lectura le ponemos solamente un `<`
+      ```bash
+      exec < file # only read
+      ```
+  - Si quisiera solamente escritura le pones solamente un `>`
+      ```bash
+      exec > file # only write
+      ```
