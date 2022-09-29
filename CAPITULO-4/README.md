@@ -61,6 +61,10 @@ Para saber que tipo de fichero usamos el comando `file`, podemos ver de que tipo
 file file
 ```
 
+>file: empty
+
 ```bash
 file #nombre_del_fichero
 ```
+
+Si le hacemos un `cat` al fichero `file` veremos que está vacío.
