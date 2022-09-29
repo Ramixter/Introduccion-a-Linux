@@ -94,17 +94,5 @@ Y ahora lo que tenemos que hacer es interpretar lo que esta ocurreindo por panta
 
 Esto lo tenemos que dividir en 3 partes, más o menos sería lo siguiente
 
-<table style="width: 100%; text-align: center;">
-  <tr>
-    <td style="width: 33%;">Primera columna</td>
-    <td style="width: 33%;">Segunda columna</td>
-    <td style="width: 33%;">Tercera columna</td>
-  </tr>
-  <tr>
-    <td colspan="3" style="width: 100%; padding-top: 50px;">Más contenido</td>
-  </tr>
-  <tr>
-    <td  colspan="3" style="width: 100%; padding-top: 50px;">Pie de página</td>
-  </tr>
-</table>
+<table class="schedule-table" cellpadding="0" cellspacing="0">
 
