@@ -140,6 +140,7 @@ De donde podemos leer más información aún.
   </tr>
   <tr>
     <td colspan="3" style="width: 100%; padding-top: 50px;">Más contenido</td>
+    <td colspan="3" style="width: 100%; padding-top: 50px;">Más contenido</td>
   </tr>
   <tr>
     <td  colspan="3" style="width: 100%; padding-top: 50px;">Pie de página</td>
