@@ -173,6 +173,20 @@ cat data
   Nº de usuarios=1
   ```
 
+Entonces podemos hacer copias de los descriptores de archivos y luego podemos cerrar el que nosotros queramos.
+
+Por ejemplo con el comando `exec` le podemos decir que queremos cerrar el descriptor de archivo `5`, entonces ejecutamos `exec 5>&-`. Y ahora tenemos el mismo archivo `data`. Entonces de cara a meter o incorporar un nuevo dato, por ejemplo `cat /etc/hosts >&5`y nos va a dar el error de `bad file descriptor` o `Descriptor de fihcero erróneo`, que ahora en tal caso sería el `8`que sería el que estaría funcionando.
+
+```bash
+exec 5>&-
+```
+
+```bash
+cat /etc/hosts >&5
+```
+
+- ```
+  5: 
 
 
 
