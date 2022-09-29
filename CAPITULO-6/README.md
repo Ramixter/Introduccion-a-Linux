@@ -120,3 +120,11 @@ El primer nombre que nos aparece es el del **propietario**, mientras que el segu
 
 **La prioridad en cuanto a permisos la marca la jerarquía de: **Propietario > Grupo > Otros**. Que lo leemos de izquierda a derecha en la línea de comandos**
 
+Ahora vamos a interpretar lo que dice cada apartado de los permisos dividido por partes. En nuestro caso recordemos que teníamos la siguiente división:
+
+| Tipo de archivo| Propietario | Grupos | Otros|
+| :---: | :---:       |    :---:    |     :---: |
+| `-` | `rw-`   | `r--`    | `r--`  |
+
+De donde podemos leer más información aún.
+
