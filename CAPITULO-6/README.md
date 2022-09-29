@@ -131,22 +131,3 @@ De donde podemos leer más información aún.
 |      | Tipo de archivo| Propietario | Grupos | Otros|
 |   :---:   | :---: | :---:       |    :---:    |     :---: |
 |      | `-` | `rw-`   | `r--`    | `r--`  |
-
-<table style="width: 100%; text-align: center;">
-  <tr>
-    <td></td>
-    <td>Tipo de archivo</td>
-    <td>Propietario</td>
-    <td>Grupos</td>
-    <td>Otros</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>`-`</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Pie de página</td>
-  </tr>
-</table>
