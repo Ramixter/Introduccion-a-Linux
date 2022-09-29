@@ -150,6 +150,6 @@ De donde podemos leer más información aún.
   </tr>
   <tr>
     <td>Características</td>
-    <td><ul><li></li><li></li></ul></td>
+    <td><ul><li><p><code>-</code>: fichero</p></li><li></li></ul></td>
   </tr>
 </table>
