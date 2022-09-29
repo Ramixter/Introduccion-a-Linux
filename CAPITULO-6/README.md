@@ -149,6 +149,7 @@ De donde podemos leer más información aún.
     <td><p><code>r--</code></p></td>
   </tr>
   <tr>
-    <td>Pie de página</td>
+    <td>Características</td>
+    <td><li>hola</li></td>
   </tr>
 </table>
