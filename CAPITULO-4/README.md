@@ -39,3 +39,12 @@
 
 # Descriptores de archivo
 
+Vamos a hablar acerca de las redirecciones en `Bash` empleando descriptores de archivos. Esto realmente no es que se utilice mucho, y en scripting en `Bash` tampoco. Pero a nivel de cultura general hay que conocerlo y *pilotarlo*.
+
+## exec
+
+Si por ejemplo ejecutamos el comando `exec` podemos crear un fichero. Creamos un archivo `file`.
+
+```bash
+exec 3<> file
+```
