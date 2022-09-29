@@ -135,14 +135,14 @@ De donde podemos leer más información aún.
 
 <table style="width: 100%; text-align: center;">
   <tr>
-    <td>a</td>
+    <td></td>
     <td>Tipo de archivo</td>
     <td>Propietario</td>
     <td>Grupos</td>
     <td>Otros</td>
   </tr>
   <tr>
-    <td><p><code>&amp;#8212;</code>es la codificación-decimal equivalente de <code>&amp;mdash;</code>.</p></td>
+    <td><p><code>`-` </code></p></td>
   </tr>
   <tr>
     <td>Pie de página</td>
