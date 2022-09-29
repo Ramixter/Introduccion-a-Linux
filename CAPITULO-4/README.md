@@ -186,7 +186,18 @@ cat /etc/hosts >&5
 ```
 
 - ```
-  5: 
+  5: bad file descriptor
+  ```
+
+```bash
+cat /etc/hosts >&8
+```
+
+```bash
+cat data
+```
+
+
 
 
 
