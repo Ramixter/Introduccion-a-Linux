@@ -148,7 +148,7 @@ pwd >&5
 cat data
 ```
 
-  - ```
+  > ```
     ramiro
     /home/ramiro
     ```
