@@ -29,15 +29,15 @@
    
     </details>
 
+## Pregunta 1 / 8
 
+¿Cómo puedo redirigir el output de un comando a un archivo?
 
-## ¿Cómo puedo redirigir el output de un comando a un archivo?
-
-whoami file
-whoami | file
-[]whoami > file
-(whoami &>/dev/null) > file
-[]whoami 1> file
+- [ ] whoami file
+- [ ] whoami | file
+- [ ] whoami > file
+- [ ] (whoami &>/dev/null) > file
+- [ ] whoami 1> file
 
 # ¿Qué se estará almacenando en el archivo ‘test’ a la hora de aplicar este comando?
 
