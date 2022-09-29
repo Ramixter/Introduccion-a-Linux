@@ -82,6 +82,6 @@ Ahora vamos a hacer un `ls -l` para ver la estructura que tiene nuestro fichero 
 ls -l
 ```
 
-   ```
-   -rw-r--r-- 1 ramiro ramiro   57 sep 29 17:30 file.txt
-   ```
+   - ```
+     -rw-r--r-- 1 ramiro ramiro   57 sep 29 17:30 file.txt
+     ```
