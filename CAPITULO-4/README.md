@@ -106,7 +106,10 @@ Esto no quiere decir que el archivo haya perdido su contenido, sino que lo que q
 ```bash
 ls >&3
 ```
->3: bad file descriptor
+
+- ```
+  3: bad file descriptor
+  ```
 
 Hemos visto cuál sería la forma de cerrar un descriptor de archivos, pero se pueden jugar de varias formas, por ejemplo:
 
