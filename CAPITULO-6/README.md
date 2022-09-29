@@ -150,6 +150,6 @@ De donde podemos leer más información aún.
   </tr>
   <tr>
     <td>Características</td>
-    <td><li>hola</li></td>
+    <td><ol><li></li><li></li></ol></td>
   </tr>
 </table>
