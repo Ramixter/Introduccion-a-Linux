@@ -46,7 +46,23 @@ Podemos meterle contenido  de varias maneras a este fichero:
    - ```
      Hola esto es nuevo
      ```
+   
+   Es decir, no nos hace un `apend`, es decir, no nos pone una información detrás de otra de forma apilonada.
 
+   **Si queremos que no nos sobreescriba la data ya existente usaremos un doble redirector `>>`**
+
+    ```bash
+    echo "Hola seguimos añadiendo información" >> file.txt
+    ```
+
+    ```bash
+    cat file.txt
+    ```
+    
+   - ```
+     Hola esto es nuevo
+     Hola seguimos añadiendo información"
+     ```
 
 
 
