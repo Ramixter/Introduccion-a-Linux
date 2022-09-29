@@ -29,7 +29,7 @@ Podemos meterle contenido  de varias maneras a este fichero:
    cat file.txt
    ```
 
-      - ```bash
+      - ```
         Hola estamos metiendo información
         ```
 
