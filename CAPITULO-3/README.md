@@ -114,12 +114,50 @@ Por otro lado, algo que podríamos hacer también es redirigir el `stdout` (que 
  cat /etc/hosts >/dev/null # without errors
  ```
 
- Algo que se suele hacer además que el output lo redirijamos al `/dev/null`es que el `stderr`, que los errores, pues los convirtamos a `stdout`, que es una forma de indicar que ahora los errores van a formar parte del `stdout` para que lo tome como output del propio comando ejecutado a nivel de sistema, el output normal, y que lo redirija al `/dev/null`. Entonces ahora ni los errores tampoco los vamos a ver
+ Algo que se suele hacer además que el output lo redirijamos al `/dev/null`es que el `stderr`, que los errores, pues los convirtamos a `stdout`, que es una forma de indicar que ahora los errores van a formar parte del `stdout` para que lo tome como output del propio comando ejecutado a nivel de sistema, el output normal, y que lo redirija al `/dev/null`. Entonces ahora ni los errores tampoco los vamos a ver, el comando se va a ejecutar, pero no vamos a ver nada.
 
  ```bash
  cat /etc/host >/dev/null 2>&1 # with errors
  ```
 
-  ```bash
+ ```bash
  cat /etc/hosts >/dev/null 2>&1 # without errors
  ```
+
+ - **Forma "convencional"**: la forma que podemos hacerlo es poniendo simplemente el `&` y lo redirigimos al `/dev/null`, de esta forma tnato el `stdout` como el `stderr` no se van a mostrar.
+
+ ```bash
+ cat /etc/hosts &>/dev/null
+ ```
+
+**Y ahora nos podemos preguntar ¿por qué ibamos a querer ocultar el output de un programa?**
+
+Pues por ejemplo imaginemos usamos un programa que se llama `wireshark`, veremos por pantalla el output del propio programa. Y hay veces que a lo mejor creamos scripts donde no queremos listar o mostrar el output de una herramienta que vayamos a ejecutar cierto procedimiento. A lo mejor este output nos interesa ocultarlo. Entonces como no queremos que se vea nada por pantalla lo redirigimos al `/dev/null`, ya que lo único que queremos es que nos abra el aplicativo. Tenemos el progama corriendo y no veremos nada por pantalla.
+
+```bash
+whireshark &>/dev/null
+```
+
+>El proceso de `whireshark` es un proceso *hijo*, es decir, que está ligado a nuestra terminal, en la consola actual en la que estamos.
+
+Si queremos poner aplicativos en segundo plano, lo que podemos hacer es poner un `&` al final.
+
+```bash
+whireshark &>/dev/null &
+```
+
+```bash
+whoami &>/dev/null &
+```
+
+```
+[1] 60712
+```
+
+Entonces como el output y los errores no se ven, le podemos dar al `enter`, pero como lo hemos puesto en segundo plano, lo que veremos por pantalla un número que es el `pid`, que el `pid` es el número identificativo que relaciona haciendo referencia a un proceso que esté ejecutándose en el sistema.
+
+**Cada proceso tiene un `pid`, un valor identificativo que representa y distingue un proceso de forma unívoca.
+
+>Dos procesos no pueden compartir el mismo `pid`.
+
+
