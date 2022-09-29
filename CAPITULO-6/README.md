@@ -92,16 +92,28 @@ Y ahora lo que tenemos que hacer es interpretar lo que esta ocurreindo por panta
 -rw-r--r-- 
 ```
 
-Donde ahora vamos a separarlo y a verlo desde los distintos puntos de vista en cuanto a información nos ofrece todo esto.
-
-| Read - Lectura | Write - Escritura | Execute - Ejecutar|
-| :---:        |     :---:      |          :---: |
-| `r`   | `w`     | `x`    |
-
 Esto lo tenemos que dividir en partes, más o menos sería lo siguiente, donde tenemos que tener clara que la secuencia siempre será **`rwx`**.
 
 | Tipo de archivo| Propietario | Grupos | Otros|
 | :---: | :---:       |    :---:    |     :---: |
 | `-` | `rw-`   | `r--`    | `r--`  |
 
+Donde ahora vamos a separarlo y a verlo desde los distintos puntos de vista en cuanto a información nos ofrece todo esto.
 
+| Read - Lectura | Write - Escritura | Execute - Ejecutar|
+| :---:        |     :---:      |          :---: |
+| `r`   | `w`     | `x`    |
+
+Ahora estamos hablando de **propietario**, de **grupos** y de **otros**. Por lo que ¿cómo sabemos esas características en el fichero?¿o dónde lo podemos mirar?
+
+Pues la maneara de saber cuál es el propietario y el grupo al que pertenece el fichero es con el `ls -l`
+
+```bash
+ls -l
+```
+
+   - ```
+     -rw-r--r-- 1 ramiro ramiro   57 sep 29 17:30 file.txt
+     ```
+
+El primer nombre que nos aparece es el del **propietario**, mientras que el segundo es el del **grupo** al que pertenece el fichero.
