@@ -142,7 +142,11 @@ De donde podemos leer más información aún.
     <td>Otros</td>
   </tr>
   <tr>
-    <td><p><code>`-` </code></p></td>
+    <td></td>
+    <td><p><code>-</code></p></td>
+    <td><p><code>rw-</code></p></td>
+    <td><p><code>r--</code></p></td>
+    <td><p><code>r--</code></p></td>
   </tr>
   <tr>
     <td>Pie de página</td>
