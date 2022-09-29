@@ -140,7 +140,7 @@ De donde podemos leer más información aún.
     <td>Tercera columna</td>
   </tr>
   <tr>
-    <td">Más contenido</td>
+    <td>Más contenido</td>
   </tr>
   <tr>
     <td>Pie de página</td>
