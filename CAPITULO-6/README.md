@@ -92,8 +92,16 @@ Y ahora lo que tenemos que hacer es interpretar lo que esta ocurreindo por panta
 -rw-r--r-- 
 ```
 
-Esto lo tenemos que dividir en 3 partes, más o menos sería lo siguiente, donde tenemos que tener clara que la secuencia siempre será **`rwx`**.
+Donde ahora vamos a separarlo y a verlo desde los distintos puntos de vista en cuanto a información nos ofrece todo esto.
 
 | Read - Lectura | Write - Escritura | Execute - Ejecutar|
 | :---:        |     :---:      |          :---: |
-| r   | w     | x    |
+| `r`   | `w`     | `x`    |
+
+Esto lo tenemos que dividir en partes, más o menos sería lo siguiente, donde tenemos que tener clara que la secuencia siempre será **`rwx`**.
+
+| Tipo de archivo| Propietario | Grupos | Otros|
+| :---: | :---:       |    :---:    |     :---: |
+| `-` | `rw-`   | `r--`    | `r--`  |
+
+
