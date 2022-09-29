@@ -116,4 +116,7 @@ ls -l
      -rw-r--r-- 1 ramiro ramiro   57 sep 29 17:30 file.txt
      ```
 
-El primer nombre que nos aparece es el del **propietario**, mientras que el segundo es el del **grupo** al que pertenece el fichero.
+El primer nombre que nos aparece es el del **propietario**, mientras que el segundo es el del **grupo** al que pertenece el fichero. **Recordemos que cada usuario tiene un grupo asignado con su mismo nombre**.
+
+**La prioridad en cuanto a permisos la marca la jerarquía de: Propietario > Grupo > Otros. Que lo leemos de izquierda a derecha en la línea de comandos**
+
