@@ -103,11 +103,10 @@ ls -l file*
 exec 3<> file
 ```
 
-
-whoami exec 3&-
-whoami 3>&1
-[]whoami >&3
-whoami 3<file
+- [ ] whoami exec 3&-
+- [ ] whoami 3>&1
+- [ ] whoami >&3
+- [ ] whoami 3<file
 
 # ¿Cómo puedo cerrar el descriptor de archivo una vez hemos depositado el contenido deseado?
 
