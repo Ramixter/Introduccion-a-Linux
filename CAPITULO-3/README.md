@@ -149,10 +149,7 @@ whireshark &>/dev/null &
 ```bash
 whoami &>/dev/null &
 ```
-
-```
-[1] 60712
-```
+>[1] 60712
 
 Entonces como el output y los errores no se ven, le podemos dar al `enter`, pero como lo hemos puesto en segundo plano, lo que veremos por pantalla un número que es el `pid`, que el `pid` es el número identificativo que relaciona haciendo referencia a un proceso que esté ejecutándose en el sistema.
 
