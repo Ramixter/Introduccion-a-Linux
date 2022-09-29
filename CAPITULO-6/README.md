@@ -29,9 +29,11 @@ Podemos meterle contenido  de varias maneras a este fichero:
    cat file.txt
    ```
 
-      - ```
-        Hola estamos metiendo información
-        ```
+   - ```
+     Hola estamos metiendo información
+      ```
+
+
 
 
 
