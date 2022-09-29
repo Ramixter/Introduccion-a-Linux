@@ -85,3 +85,26 @@ ls -l
    - ```
      -rw-r--r-- 1 ramiro ramiro   57 sep 29 17:30 file.txt
      ```
+
+Y ahora lo que tenemos que hacer es interpretar lo que esta ocurreindo por pantalla. Si nos fijamos en la primera parte vemos que tenemos lo siguiente:
+
+```bash
+-rw-r--r-- 
+```
+
+Esto lo tenemos que dividir en 3 partes, más o menos sería lo siguiente
+
+<table style="width: 100%; text-align: center;">
+  <tr>
+    <td style="width: 33%;">Primera columna</td>
+    <td style="width: 33%;">Segunda columna</td>
+    <td style="width: 33%;">Tercera columna</td>
+  </tr>
+  <tr>
+    <td colspan="3" style="width: 100%; padding-top: 50px;">Más contenido</td>
+  </tr>
+  <tr>
+    <td  colspan="3" style="width: 100%; padding-top: 50px;">Pie de página</td>
+  </tr>
+</table>
+
