@@ -153,8 +153,14 @@ whoami &>/dev/null &
 
 Entonces como el output y los errores no se ven, le podemos dar al `enter`, pero como lo hemos puesto en segundo plano, lo que veremos por pantalla un número que es el `pid`, que el `pid` es el número identificativo que relaciona haciendo referencia a un proceso que esté ejecutándose en el sistema.
 
-**Cada proceso tiene un `pid`, un valor identificativo que representa y distingue un proceso de forma unívoca.
+**Cada proceso tiene un `pid`, un valor identificativo que representa y distingue un proceso de forma unívoca.**
 
 >Dos procesos no pueden compartir el mismo `pid`.
 
+**¿Cómo podemos remediar que un proceso abierto por consola no se cierre al cerrar la terminal?**
 
+Nosotros normalmente cuando queramos independizar un proceso para que no dependa del recuso principal, hacemos lo mismo que hemos visto, pero al final le metemos un `disown`. De manera que si cerramos el proceso padre, el proceso que habíamos abierto permanecería ejecutandose todavía.
+
+```bash
+whireshark &>/dev/null & disown
+```
