@@ -108,7 +108,7 @@ ls >&3
 ```
 
 - ```
-  3: bad file descriptor
+  bash: 3: bad file descriptor
   ```
 
 Hemos visto cuál sería la forma de cerrar un descriptor de archivos, pero se pueden jugar de varias formas, por ejemplo:
@@ -187,7 +187,7 @@ cat /etc/hosts >&5
 ```
 
 - ```
-  5: bad file descriptor
+  bash: 5: bad file descriptor
   ```
 
 ```bash
