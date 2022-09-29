@@ -109,3 +109,21 @@ Esto no quiere decir que el archivo haya perdido su contenido, sino que lo que q
 ls >&3
 ```
 >3: bad file descriptor
+
+Hemos visto cuál sería la forma de cerrar un descriptor de archivos, pero se pueden jugar de varias formas, por ejemplo:
+
+Vamos a crearnos un descriptor de archivo `5` con capcidad de lectura `<` y escritura `>` en el archivo `data`:
+
+```bash
+exec 5<> data
+```
+
+**Cosas a tener en cuenta**
+
+Si ahora por ejemplo metemos `whoami` en el descriptor de archivo:
+
+    ```bash
+    whoami >&5
+    ```
+Pues podemos creear copias entre descriptores de archivos. Si ahora por ejemplo hacemos ` exec 8>5`, lo que le estamos indicando de esta forma es que lo que hay en el descriptor de archivo `5` queremos crear una copia para el descriptor de archivo `8` que estamos creando ahora
+
