@@ -96,7 +96,6 @@ ls -l file*
 
 </details>
 
-
 ## Pregunta 5 / 8 ¿Cómo puedo enviar el output del comando ‘whoami’ al descriptor de archivo creado?
 
 ```bash
@@ -117,9 +116,7 @@ exec 3<> file
 
 </details>
 
-
 ## Pregunta 6 / 8  ¿Cómo puedo cerrar el descriptor de archivo una vez hemos depositado el contenido deseado?
-
 
 ```bash
 exec 3<> file
@@ -133,18 +130,37 @@ cat file
 - [ ] exec 3>&-
 - [ ] end 3>&-
 
-# ¿Qué sucederá cuando se aplique el último comando?
+<details>
+<summary>Solución</summary>
+  
+- [x] exec 3>&-
 
+   >De esta forma, estaremos cerrando el descriptor de archivo creado. Si en este punto, probáramos a enviar un output a este descriptor de archivo, nos saldría un error de tipo `3: bad file descriptor`.
+
+</details>
+
+## Pregunta 7 / 8  ¿Qué sucederá cuando se aplique el último comando?
+
+```bash
 exec 3<> file
 exec 4>&3-
 whoami >$4
 whoami >&3
+```
 
+- [ ] Se volcará el output del comando 'whoami' 2 veces en el mismo archivo
+- [ ] Se volcará el output del comando 'whoami' en el mismo archivo, borrando lo que anteriormente existiera
+- [ ] Se almacenará 2 veces lo mismo dado que el descriptor de archivo 4 es una copia del descriptor 3
+- [ ] El comando causará un error, dado que el descriptor de archivo 3 ha sido cerrado
 
-Se volcará el output del comando 'whoami' 2 veces en el mismo archivo
-Se volcará el output del comando 'whoami' en el mismo archivo, borrando lo que anteriormente existiera
-Se almacenará 2 veces lo mismo dado que el descriptor de archivo 4 es una copia del descriptor 3
-[]El comando causará un error, dado que el descriptor de archivo 3 ha sido cerrado
+<details>
+<summary>Solución</summary>
+  
+- [x] exec 3>&-
+
+   >De esta forma, estaremos cerrando el descriptor de archivo creado. Si en este punto, probáramos a enviar un output a este descriptor de archivo, nos saldría un error de tipo `3: bad file descriptor`.
+
+</details>
 
 ## ¿Qué estaré almacenando en el archivo ‘file’ con este comando?
 
