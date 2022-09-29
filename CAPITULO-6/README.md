@@ -76,4 +76,12 @@ Podemos meterle contenido  de varias maneras a este fichero:
     vi file.txt
     ```
 
+Ahora vamos a hacer un `ls -l` para ver la estructura que tiene nuestro fichero `file.txt`:
 
+```bash
+ls -l
+```
+
+```bash
+-rw-r--r-- 1 ramiro ramiro   57 sep 29 17:30 file.txt
+```
