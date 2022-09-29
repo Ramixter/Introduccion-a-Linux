@@ -58,14 +58,12 @@ exec 3<> file
 Para saber que tipo de fichero usamos el comando `file`, podemos ver de que tipo de fichero se trata.
 
 ```bash
-file file
+file file # second file is the name of the file or directory
 ```
+- ```
+  file: empty
+  ```
 
->file: empty
-
-```bash
-file #nombre_del_fichero
-```
 
 Si le hacemos un `cat` al fichero `file` veremos que está vacío.
 
@@ -209,6 +207,9 @@ cat data
   ff02::1    ip6-allnodes
   ff02::2    ip6-allrouters
   ```
+
+Se pueden crear copias de otra forma, de la siguiente manera, por ejemplo, si queremos crear una copia del descriptor de archivo `8` 
+
 
 
 
