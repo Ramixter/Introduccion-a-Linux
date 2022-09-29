@@ -88,3 +88,24 @@ Si por ejemplo queremos hacer que el ouput de un comando se almacene en el descr
 ```bash
 whoami >&3
 ```
+
+Esta ejecución de lineas van a ir almacenando en formato `append`, es decir, cualquier cosa que metamos se irá almacenando sin aplastar lo anterior. Lo introduce a continuación.
+
+Se ejecutará la acción y no veremos nada por pantalla, pero para ver el contenido del fichero `file` podemos usar por ejemplo el `cat`, el output se habría almacenado en ese archivo.
+
+```bash
+cat file
+```
+
+Cuando queremos cerrar un descriptor de archivo creado, podemos jugar con el `exec`, para por ejemplo indicar el descriptor de archivo y decirle que se cierre usando `-`.
+
+```bash
+exec 3>&-
+```
+
+Esto no quiere decir que el archivo haya perdido su contenido, sino que lo que quiere decir es que de cara a un futuro output que queramos almacenar en ese descriptor de archivo nos va a decir que `bad file descriptor` o `Descriptor de fihcero erróneo`
+
+```bash
+ls >&3
+```
+>3: bad file descriptor
