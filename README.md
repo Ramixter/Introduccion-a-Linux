@@ -31,6 +31,8 @@
     </details>
    
 3. [Control del flujo stderr-stdout, operadores y procesos en segundo plano](https://github.com/Ramixter/Introduccion-a-Linux/tree/main/CAPITULO-3#contenido)
-***
+
 
 4. [Descriptores de archivo](https://github.com/Ramixter/Introduccion-a-Linux/tree/main/CAPITULO-4)
+
+***
