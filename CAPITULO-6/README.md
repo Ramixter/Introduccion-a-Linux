@@ -131,19 +131,20 @@ De donde podemos leer más información aún.
 |      | Tipo de archivo| Propietario | Grupos | Otros|
 |   :---:   | :---: | :---:       |    :---:    |     :---: |
 |      | `-` | `rw-`   | `r--`    | `r--`  |
-| Características | 
 
 
 <table style="width: 100%; text-align: center;">
   <tr>
-    <td style="width: 33%;">Primera columna</td>
-    <td style="width: 33%;">Segunda columna</td>
-    <td style="width: 33%;">Tercera columna</td>
+    <td>a</td>
+    <td>Tipo de archivo</td>
+    <td>Propietario</td>
+    <td>Grupos</td>
+    <td>Otros</td>
   </tr>
   <tr>
-    <td colspan="3" style="width: 100%; padding-top: 50px;"><p><code>&amp;#8212;</code>es la codificación-decimal equivalente de <code>&amp;mdash;</code>.</p></td>
+    <td><p><code>&amp;#8212;</code>es la codificación-decimal equivalente de <code>&amp;mdash;</code>.</p></td>
   </tr>
   <tr>
-    <td  colspan="3" style="width: 100%; padding-top: 50px;">Pie de página</td>
+    <td>Pie de página</td>
   </tr>
 </table>
