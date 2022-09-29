@@ -48,3 +48,5 @@ Si por ejemplo ejecutamos el comando `exec` podemos crear un fichero. Creamos un
 ```bash
 exec 3<> file
 ```
+
+>Si hacemos `ls` podemos ver el fichero `file` creado.
