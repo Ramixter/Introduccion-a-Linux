@@ -211,7 +211,28 @@ cat data
   ff02::2    ip6-allrouters
   ```
 
-Se pueden crear copias de otra forma, de la siguiente manera, por ejemplo, si queremos crear una copia del descriptor de archivo `8` 
+>Se pueden crear copias de otra forma, de la siguiente manera, por ejemplo, si queremos crear una copia del descriptor de archivo `8`.
+
+En vez de crear un descriptor de archivos de lectura `<` y escritura `>` para meter datos, luego crear una copia del primer descriptor de archivo creado y luego intoducir datos en el segundo habiendo cerrado el primero sin ningún problema.
+
+Imaginemos que creamos un descriptor de archivos con capacidad de lectura `<` y escritura `>` en el fichero `example`, entonces cualquier cosa que metamos en ese descriptor de archivos va a corresponder al fichero `example`. 
+
+```bash
+exec 5<> example
+```
+
+Imaginemos ahora que creamos una copia.
+
+```bash
+exec 6>&5
+```
+
+Tenemos ahora un descriptor de archivo `6` que es una copia del `5`. **Pero si le pones un `-` al final, cerramos el `5`**
+
+Recordemos que los descriptores de arvhivos no son algo que se usen demasiado, pero que está bien saberlo.
+
+Dejamos material de apoyo para poder consultar ciertas funciones y poder aplicarlas: [Bash Redirections Cheat Sheet](/CAPITULO-4/sources/bash-redirections-cheat-sheet.pdf)
+
 
 
 
