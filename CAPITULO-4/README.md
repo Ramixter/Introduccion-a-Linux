@@ -41,7 +41,7 @@
 
 Vamos a hablar acerca de las redirecciones en `Bash` empleando descriptores de archivos. Esto realmente no es que se utilice mucho, y en scripting en `Bash` tampoco. Pero a nivel de cultura general hay que conocerlo y *pilotarlo*.
 
-## exec
+## `exec`
 
 Si por ejemplo ejecutamos el comando `exec` podemos crear un fichero. Creamos un archivo `file`.
 
@@ -50,4 +50,5 @@ exec 3<> file
 ```
 
 >Si hacemos `ls` podemos ver el fichero `file` creado.
+
 >No usamos el `2` sino el `3` porque recordemos que el `2` es el error.
