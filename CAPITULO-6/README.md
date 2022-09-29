@@ -31,7 +31,21 @@ Podemos meterle contenido  de varias maneras a este fichero:
 
    - ```
      Hola estamos metiendo información
-      ```
+     ```
+
+ Si jugamos con un único redirector, nos fijamos que si escribimos otra línea con `echo` nos sobreescribiría lo anterior, por ejemplo:
+   
+   ```bash
+   echo "Hola esto es nuevo" > file.txt
+   ```
+
+   ```bash
+   cat file.txt
+   ```
+
+   - ```
+     Hola esto es nuevo
+     ```
 
 
 
