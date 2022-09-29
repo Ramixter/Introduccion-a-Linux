@@ -122,8 +122,24 @@ exec 5<> data
 
 Si ahora por ejemplo metemos `whoami` en el descriptor de archivo:
 
-    ```bash
-    whoami >&5
-    ```
-Pues podemos creear copias entre descriptores de archivos. Si ahora por ejemplo hacemos ` exec 8>5`, lo que le estamos indicando de esta forma es que lo que hay en el descriptor de archivo `5` queremos crear una copia para el descriptor de archivo `8` que estamos creando ahora
+```bash
+whoami >&5
+```
+
+Pues podemos creear copias entre descriptores de archivos. Si ahora por ejemplo hacemos ` exec 8>&5`, lo que le estamos indicando de esta forma es que lo que hay en el descriptor de archivo `5` queremos crear una copia para el descriptor de archivo `8` que estamos creando ahora
+
+```bash
+exec 8>&5
+```
+>Se crea la copia del descriptor de archivo `5` al `8`.
+
+Entonces si ahora escribimos en el descriptor de archivo inicial, el `5`, por ejemplo metemos `pwd >&5`
+
+```bash
+pwd >&5
+```
+
+Pero ahora como también el descriptor de archivo `8` es una copia del `5`, entonces cualquier cosa que metamos en el descriptor de archivo `8` se irá a ese descriptor de archivo, pero la información se meterá en el fichero `data` (hacer `cat data` para comprobarlo).
+
+
 
