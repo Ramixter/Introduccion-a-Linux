@@ -29,15 +29,32 @@
    
 </details>
 
-## Pregunta 1 / 8
+## Pregunta 2 / 8
 
-¿Cómo puedo redirigir el output de un comando a un archivo?
+¿Cómo puedo redirigir el output de un comando a un archivo? **(varias respuestas)**
 
 - [ ] whoami file
 - [ ] whoami | file
 - [ ] whoami > file
 - [ ] (whoami &>/dev/null) > file
 - [ ] whoami 1> file
+
+<details>
+<summary>Solución</summary>
+  
+- [x] whoami > file
+
+   >Este comando redirige el standard output (`stdout`) a un archivo.
+
+- [ ] (whoami &>/dev/null) > file
+
+   >Si no hubieran habido unos paréntesis, pese a no ver el output por consola, este habría sido almacenado en el archivo, pero al llevar el paréntesis lo que rediriges al archivo file es el output de ese comando ejecutado a nivel de sistema, que es un vacío, no teniendo por tanto ningún contenido el archivo `file`. Esta respuesta es incorrecta.
+
+- [x] whoami 1> file
+
+   > El valor 1 corresponde al descriptor de archivo por defecto para stdout, por lo tanto estaremos redirigiendo mismamente el output del comando.
+
+</details>
 
 # ¿Qué se estará almacenando en el archivo ‘test’ a la hora de aplicar este comando?
 
