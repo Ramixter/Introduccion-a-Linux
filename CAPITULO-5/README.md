@@ -12,7 +12,7 @@
 > exec 3>&-
 ```
 
-- [] Se comienza utilizando un descriptor de archivo con capacidad de lectura y escritura para posteriormente crear una copia del descriptor de archivo al número 4. Al enviar el output del comando, se almacenará en el mismo archivo 'file' y posteriormente se cierran ambos descriptores de archivo
+- [ ] Se comienza utilizando un descriptor de archivo con capacidad de lectura y escritura para posteriormente crear una copia del descriptor de archivo al número 4. Al enviar el output del comando, se almacenará en el mismo archivo 'file' y posteriormente se cierran ambos descriptores de archivo
 
 - Se comienza utilizando un descriptor de archivo con capacidad de lectura y escritura para posteriormente crear una copia de este cerrando el descriptor de archivo previamente creado al número 4. Al enviar el output del comando, se almacenará en el mismo archivo 'file' y posteriormente se cierran ambos descriptores de archivo.
 
