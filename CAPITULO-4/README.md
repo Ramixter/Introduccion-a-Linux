@@ -162,3 +162,17 @@ Pero ahora como también el descriptor de archivo `8` es una copia del `5`, ento
 who -q >&8
 ```
 
+```bash
+cat data
+```
+
+- ```
+  ramiro
+  /home/ramiro
+  ramiro
+  Nº de usuarios=1
+  ```
+
+
+
+
