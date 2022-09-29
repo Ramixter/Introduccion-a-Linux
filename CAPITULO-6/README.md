@@ -21,19 +21,19 @@ Podemos meterle contenido  de varias maneras a este fichero:
 
 - `echo`: Podemos usar el comando `echo` para meter información que queremos dentro del fichero:
    
-   ```bash
-   echo "Hola estamos metiendo información" > file.txt
-   ```
+    ```bash
+    echo "Hola estamos metiendo información" > file.txt
+    ```
 
-   ```bash
-   cat file.txt
-   ```
+    ```bash
+    cat file.txt
+    ```
 
    - ```
      Hola estamos metiendo información
      ```
 
- Si jugamos con un único redirector, nos fijamos que si escribimos otra línea con `echo` nos sobreescribiría lo anterior, por ejemplo:
+   Si jugamos con un único redirector, nos fijamos que si escribimos otra línea con `echo` nos sobreescribiría lo anterior, por ejemplo:
    
    ```bash
    echo "Hola esto es nuevo" > file.txt
