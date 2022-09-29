@@ -5,11 +5,11 @@
 ¿Sabrías decir qué es lo que está pasando aquí?
 
 ```bash
-> exec 3<> file
-> exec 4>&3
-> whoami >&4
-> exec 4>&-
-> exec 3>&-
+exec 3<> file
+exec 4>&3
+whoami >&4
+exec 4>&-
+exec 3>&-
 ```
 
 - [ ] Se comienza utilizando un descriptor de archivo con capacidad de lectura y escritura para posteriormente crear una copia del descriptor de archivo al número 4. Al enviar el output del comando, se almacenará en el mismo archivo 'file' y posteriormente se cierran ambos descriptores de archivo
@@ -25,7 +25,7 @@
   
 - [x] Se comienza utilizando un descriptor de archivo con capacidad de lectura y escritura para posteriormente crear una copia del descriptor de archivo al número 4. Al enviar el output del comando, se almacenará en el mismo archivo 'file' y posteriormente se cierran ambos descriptores de archivo
 
->La operación `exec 4>&3` crea un descriptor de archivo `4` el cual actúa como copia del descriptor de archivo `3`. En caso de haber querido cerrar el primer descriptor tras establecer la copia, podríamos haber hecho `exec 4>&3-`.
+   >La operación `exec 4>&3` crea un descriptor de archivo `4` el cual actúa como copia del descriptor de archivo `3`. En caso de haber querido cerrar el primer descriptor tras establecer la copia, podríamos haber hecho `exec 4>&3-`.
    
 </details>
 
@@ -56,10 +56,12 @@
 
 </details>
 
-# ¿Qué se estará almacenando en el archivo ‘test’ a la hora de aplicar este comando?
+## Pregunta 3 / 8
+
+¿Qué se estará almacenando en el archivo ‘test’ a la hora de aplicar este comando?
 
 ```bash
->whoami &> test
+whoami &> test
 ```
 
 El archivo no tendrá contenido siempre y cuando no posea stderr
@@ -70,14 +72,13 @@ Se almacenará sólo el stdout del comando aplicado
 # ¿Son estos dos controles de flujo lo mismo?
 
 ```bash
->whoam > file1 2>&1
->
->whoam &> file2
->
->ls -l file*
+whoam > file1 2>&1
+
+whoam &> file2
+
+ls -l file*
 
 
->
 ```
 
 Verdadero
@@ -100,9 +101,9 @@ whoami 3<file
 
 
 ```bash
->exec 3<> file
->whoami >&3
->cat file
+exec 3<> file
+whoami >&3
+cat file
 ```
 
 exec 4>&3
@@ -127,7 +128,7 @@ Se almacenará 2 veces lo mismo dado que el descriptor de archivo 4 es una copia
 ## ¿Qué estaré almacenando en el archivo ‘file’ con este comando?
 
 ```bash
->whoami 2> file
+whoami 2> file
 ```
 
 []Nada, dado que posee errores
