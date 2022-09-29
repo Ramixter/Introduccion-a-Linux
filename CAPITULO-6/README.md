@@ -9,5 +9,9 @@ Para apoyarnos en este tema tenemos dos fuentes de información para consultar:
 
 **El principal problema de los permisos avanzados es que a la hora de entenderlos es que los permisos se explican mal**. Vamos a intentar explicarlos lo mejor posible para que se entiendan.
 
+vamos a crear un archivo `file.txt`; para ello hacemos uso de un nuevo comando que es el `touch`. El comando `touch` nos permite crear un archivo.
 
+```bash
+touch file.txt
+```
 
