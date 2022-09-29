@@ -15,3 +15,23 @@ vamos a crear un archivo `file.txt`; para ello hacemos uso de un nuevo comando q
 touch file.txt
 ```
 
+>Si hicieramos un `cat` veríamos que este fichero estaría vacío.
+
+Podemos meterle contenido  de varias maneras a este fichero:
+
+- `echo`: Podemos usar el comando `echo` para meter información que queremos dentro del fichero:
+   
+   ```bash
+   echo "Hola estamos metiendo información" > file.txt
+   ```
+
+   ```bash
+   cat file.txt
+   ```
+      - ```bash
+        Hola estamos metiendo información
+        ```
+
+
+
+
