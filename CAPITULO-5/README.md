@@ -96,7 +96,7 @@ ls -l file*
 
 </details>
 
-## Pregunta 5 / 8 ¿Cómo puedo enviar el output del comando ‘whoami’ al descriptor de archivo creado?
+## Pregunta 5 / 8 - ¿Cómo puedo enviar el output del comando ‘whoami’ al descriptor de archivo creado?
 
 ```bash
 exec 3<> file
@@ -116,7 +116,7 @@ exec 3<> file
 
 </details>
 
-## Pregunta 6 / 8  ¿Cómo puedo cerrar el descriptor de archivo una vez hemos depositado el contenido deseado?
+## Pregunta 6 / 8 - ¿Cómo puedo cerrar el descriptor de archivo una vez hemos depositado el contenido deseado?
 
 ```bash
 exec 3<> file
@@ -139,7 +139,7 @@ cat file
 
 </details>
 
-## Pregunta 7 / 8  ¿Qué sucederá cuando se aplique el último comando?
+## Pregunta 7 / 8 - ¿Qué sucederá cuando se aplique el último comando?
 
 ```bash
 exec 3<> file
@@ -156,20 +156,33 @@ whoami >&3
 <details>
 <summary>Solución</summary>
   
-- [x] exec 3>&-
+- [x] El comando causará un error, dado que el descriptor de archivo 3 ha sido cerrado
 
-   >De esta forma, estaremos cerrando el descriptor de archivo creado. Si en este punto, probáramos a enviar un output a este descriptor de archivo, nos saldría un error de tipo `3: bad file descriptor`.
+   >El comando `exec 4>&3` lo que hace es crear un descriptor de archivo `4` que actúa como copia del descriptor `3` pero cerrando este una vez la copia es creada. Lo normal es ver un error de tipo `3: Bad file descriptor`, dado que el descriptor ya no existe.
 
 </details>
 
-## ¿Qué estaré almacenando en el archivo ‘file’ con este comando?
+## Pregunta 8 / 8 - ¿Qué estaré almacenando en el archivo ‘file’ con este comando? **(varias respuestas)**
 
 ```bash
 whoami 2> file
 ```
 
-[]Nada, dado que posee errores
-El stdout
-El stderr
-command not found: whoam
-Nada, dado que el comando no existe
+- [ ] Nada, dado que posee errores
+- [ ] El stdout
+- [ ] El stderr
+- [ ] command not found: whoam
+- [ ] Nada, dado que el comando no existe
+
+<details>
+<summary>Solución</summary>
+  
+- [x] El stderr
+
+   >El valor 2 redirige los errores standard (stderr) a un archivo.
+
+- [x] command not found: whoam
+
+   >Este probablemente sería el mensaje de error que almacenaríamos en este archivo, siempre y cuando el comando 'whoam' no exista.
+
+</details>
