@@ -140,9 +140,9 @@ De donde podemos leer más información aún.
     <td>Tercera columna</td>
   </tr>
   <tr>
-    <td colspan="3" style="width: 100%; padding-top: 50px;">Más contenido</td>
+    <td">Más contenido</td>
   </tr>
   <tr>
-    <td  colspan="3" style="width: 100%; padding-top: 50px;">Pie de página</td>
+    <td>Pie de página</td>
   </tr>
 </table>
