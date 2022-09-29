@@ -66,7 +66,14 @@ Podemos meterle contenido  de varias maneras a este fichero:
 
 - `nano`: con el comando `nano` lo que realmente abrimos es un editor de texto de Linux donde podemos meter el contenido escribiéndolo nosotros mismo.
 
+    ```bash
+    nano file.txt
+    ```
 
+- `vi`: con este comando abrimos el editor `vi` que es otro de los editores de texto que tiene Linux. Este editor es más complejo que el `nano` pero a su vez es mucho más potente si se aprende a manejar.
 
+    ```bash
+    vi file.txt
+    ```
 
 
