@@ -75,9 +75,16 @@ Pues ahora mismo estamos empleando un **descriptor de archivo** identificado con
 
   - Si quisiera solamente lectura le ponemos solamente un `<`
       ```bash
-      exec < file # only read
+      exec 3< file # only read
       ```
-  - Si quisiera solamente escritura le pones solamente un `>`
+  - Si quisiera poder escribir le pones solamente un `>`
       ```bash
-      exec > file # only write
+      exec 3> file # only write
       ```
+## Almacenar outputs
+
+Si por ejemplo queremos hacer que el ouput de un comando se almacene en el descriptor de archivo `3` que tiene capacidad de escritura, es decir, en el archivo `file`, entonces si ejecutamos `>&3` esta es una forma de mandar el output a ese descriptor de archivo
+
+```bash
+whoami >&3
+```
