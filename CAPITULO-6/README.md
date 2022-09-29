@@ -129,5 +129,5 @@ Ahora vamos a interpretar lo que dice cada apartado de los permisos dividido por
 De donde podemos leer más información aún.
 
 |      | Tipo de archivo| Propietario | Grupos | Otros|
-|      | :---: | :---:       |    :---:    |     :---: |
+|   :---:   | :---: | :---:       |    :---:    |     :---: |
 |      | `-` | `rw-`   | `r--`    | `r--`  |
