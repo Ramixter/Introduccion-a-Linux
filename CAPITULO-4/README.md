@@ -231,12 +231,4 @@ Tenemos ahora un descriptor de archivo `6` que es una copia del `5`. **Pero si l
 
 Recordemos que los descriptores de arvhivos no son algo que se usen demasiado, pero que está bien saberlo.
 
-Dejamos material de apoyo para poder consultar ciertas funciones y poder aplicarlas: [Bash Redirections Cheat Sheet](/CAPITULO-4/sources/bash-redirections-cheat-sheet.pdf)
-
-
-
-
-
-
-
-
+**Dejamos material de apoyo para poder consultar ciertas funciones y poder aplicarlas: [Bash Redirections Cheat Sheet](/CAPITULO-4/sources/bash-redirections-cheat-sheet.pdf)**
