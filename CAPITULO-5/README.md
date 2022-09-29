@@ -108,6 +108,16 @@ exec 3<> file
 - [ ] whoami >&3
 - [ ] whoami 3<file
 
+<details>
+<summary>Solución</summary>
+  
+- [x] whoami >&3
+
+   >A través de este comando, depositaremos el contenido del comando en el descriptor de archivo previamente creado
+
+</details>
+
+
 # ¿Cómo puedo cerrar el descriptor de archivo una vez hemos depositado el contenido deseado?
 
 
