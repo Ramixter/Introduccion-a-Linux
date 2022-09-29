@@ -80,15 +80,24 @@ whoam > file1 2>&1
 whoam &> file2
 
 ls -l file*
-
-
+-rw-r--r-- 1 ramiro ramiro 33 sep 29 16:52 file1
+-rw-r--r-- 1 ramiro ramiro 33 sep 29 16:52 file2
 ```
 
-Verdadero
-[]Falso
+- [ ] Verdadero
+- [ ] Falso
+
+<details>
+<summary>Solución</summary>
+  
+- [x] Verdadero
+
+   >Recuerda que el uso del operador `&>` sirve para indicar que tanto el `stderr` como el stdout va a ser redirigido a un archivo, igual que la instrucción que está previamente definida.
+
+</details>
 
 
-# ¿Cómo puedo enviar el output del comando ‘whoami’ al descriptor de archivo creado?
+## Pregunta 5 / 8 ¿Cómo puedo enviar el output del comando ‘whoami’ al descriptor de archivo creado?
 
 ```bash
 exec 3<> file
