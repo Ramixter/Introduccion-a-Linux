@@ -1,8 +1,6 @@
 # Cuestionario de control de flujo y operadores
 
-## Pregunta 1 / 8
-
-¿Sabrías decir qué es lo que está pasando aquí?
+## Pregunta 1 / 8 - ¿Sabrías decir qué es lo que está pasando aquí?
 
 ```bash
 exec 3<> file
@@ -29,9 +27,7 @@ exec 3>&-
    
 </details>
 
-## Pregunta 2 / 8
-
-¿Cómo puedo redirigir el output de un comando a un archivo? **(varias respuestas)**
+## Pregunta 2 / 8 - ¿Cómo puedo redirigir el output de un comando a un archivo? **(varias respuestas)**
 
 - [ ] whoami file
 - [ ] whoami | file
@@ -56,9 +52,7 @@ exec 3>&-
 
 </details>
 
-## Pregunta 3 / 8
-
-¿Qué se estará almacenando en el archivo ‘test’ a la hora de aplicar este comando?
+## Pregunta 3 / 8 - ¿Qué se estará almacenando en el archivo ‘test’ a la hora de aplicar este comando?
 
 ```bash
 whoami &> test
@@ -78,7 +72,7 @@ whoami &> test
 
 </details>
 
-# ¿Son estos dos controles de flujo lo mismo?
+## Pregunta 4 / 8 - ¿Son estos dos controles de flujo lo mismo?
 
 ```bash
 whoam > file1 2>&1
