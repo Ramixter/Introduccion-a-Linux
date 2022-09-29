@@ -64,10 +64,10 @@ exec 3>&-
 whoami &> test
 ```
 
-El archivo no tendrá contenido siempre y cuando no posea stderr
-[]Se almacenará tanto el stderr como el stdout del comando aplicado
-Se almacenará sólo el stderr del comando aplicado
-Se almacenará sólo el stdout del comando aplicado
+- [ ] El archivo no tendrá contenido siempre y cuando no posea stderr
+- [ ] Se almacenará tanto el stderr como el stdout del comando aplicado
+- [ ] Se almacenará sólo el stderr del comando aplicado
+- [ ] Se almacenará sólo el stdout del comando aplicado
 
 # ¿Son estos dos controles de flujo lo mismo?
 
