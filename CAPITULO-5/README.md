@@ -69,6 +69,15 @@ whoami &> test
 - [ ] Se almacenará sólo el stderr del comando aplicado
 - [ ] Se almacenará sólo el stdout del comando aplicado
 
+<details>
+<summary>Solución</summary>
+  
+- [x] Se almacenará tanto el stderr como el stdout del comando aplicado
+
+   >El control de flujo `&>` sirve para redirigir tanto el stderr como el `stdout` a un archivo. Otra forma de representar este mismo control de flujo sería con `> test 2>&1`
+
+</details>
+
 # ¿Son estos dos controles de flujo lo mismo?
 
 ```bash
