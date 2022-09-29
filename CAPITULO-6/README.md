@@ -118,5 +118,5 @@ ls -l
 
 El primer nombre que nos aparece es el del **propietario**, mientras que el segundo es el del **grupo** al que pertenece el fichero. **Recordemos que cada usuario tiene un grupo asignado con su mismo nombre**.
 
-**La prioridad en cuanto a permisos la marca la jerarquía de: Propietario > Grupo > Otros. Que lo leemos de izquierda a derecha en la línea de comandos**
+**La prioridad en cuanto a permisos la marca la jerarquía de: **Propietario > Grupo > Otros**. Que lo leemos de izquierda a derecha en la línea de comandos**
 
