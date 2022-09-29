@@ -69,9 +69,11 @@ Si hay un comando erroneo, nos devolverá como salida `bash: orden no encontrada
 
 Hay una cosa a destacar, y es que por ejemplo si ejecutamos un comando no válido nos reportará por consola `orden no encontrada` o `command not found`. Y esto es porque cuando nosotros hacemos scripts hay ocasiones en las que no nos interesa que el usuario vea errores por consola.
 
-### Standard error `stderr`
+## Standard error `stderr`
 
 **El error se define como `stderr`**, que se puede referenciar con el número 2. Y lo que nosotros podemos hacer es redirigir los errores. Para eso podemos decir lo siguiente `2>/dev/null`, que esto lo que quiere decir es que queremos enviar el error, el `stderr`, al `/dev/null`.
+
+## `/dev/null`
 
 Ahora bien, ¿qué es el `/dev/null`?
 
@@ -101,6 +103,8 @@ cat /etc/hosts 2>/dev/null # without errors
 ```
 
 Entonces en caso de haber errores no se mostrarán por pantalla, pero en caso de no haberlos si que nos mostrará el resultado por pantalla.
+
+## Output `stdout`
 
 Por otro lado, algo que podríamos hacer también es redirigir el `stdout` (que es lo que se muestra por pantalla), tendríamos varias formas de hacerlo:
 
@@ -156,6 +160,8 @@ Entonces como el output y los errores no se ven, le podemos dar al `enter`, pero
 **Cada proceso tiene un `pid`, un valor identificativo que representa y distingue un proceso de forma unívoca.**
 
 >Dos procesos no pueden compartir el mismo `pid`.
+
+## Procesos en segundo plano `disown`
 
 **¿Cómo podemos remediar que un proceso abierto por consola no se cierre al cerrar la terminal?**
 
