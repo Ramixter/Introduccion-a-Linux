@@ -52,3 +52,15 @@ exec 3<> file
 >Si hacemos `ls` podemos ver el fichero `file` creado.
 
 >No usamos el `2` sino el `3` porque recordemos que el `2` es el error.
+
+## `file`
+
+Para saber que tipo de fichero usamos el comando `file`, podemos ver de que tipo de fichero se trata.
+
+```bash
+file file
+```
+
+```bash
+file #nombre_del_fichero
+```
