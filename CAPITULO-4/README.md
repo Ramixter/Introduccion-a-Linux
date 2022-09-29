@@ -129,7 +129,10 @@ whoami >&5
 ```bash
 cat data
 ```
->ramiro
+
+- ```
+  ramiro
+  ```
 
 Pues podemos creear copias entre descriptores de archivos. Si ahora por ejemplo hacemos ` exec 8>&5`, lo que le estamos indicando de esta forma es que lo que hay en el descriptor de archivo `5` queremos crear una copia para el descriptor de archivo `8` que estamos creando ahora
 
