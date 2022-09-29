@@ -50,3 +50,4 @@ exec 3<> file
 ```
 
 >Si hacemos `ls` podemos ver el fichero `file` creado.
+>No usamos el `2` sino el `3` porque recordemos que el `2` es el error.
