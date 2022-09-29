@@ -149,9 +149,9 @@ cat data
 ```
 
 - ```
- ramiro
- /home/ramiro
- ```
+  ramiro
+  /home/ramiro
+  ```
 
 Pero ahora como también el descriptor de archivo `8` es una copia del `5`, entonces cualquier cosa que metamos en el descriptor de archivo `8` se irá a ese descriptor de archivo, pero la información se meterá en el fichero `data` (hacer `cat data` para comprobarlo).
 
